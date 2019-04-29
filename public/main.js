@@ -61,21 +61,23 @@ map.on('load', function () {
         'type': 'fill',
         'source': {
         'type': 'geojson',
-        'data': 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson'
-    },
+            'data': 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson'
+        },
         'layout': {},
         'paint': {
-        'fill-color': '#f08',
-        'fill-opacity': 0.4
-    }
-    // This is the important part of this example: the addLayer
-    // method takes 2 arguments: the layer as an object, and a string
-    // representing another layer's name. if the other layer
-    // exists in the stylesheet already, the new layer will be positioned
-    // right before that layer in the stack, making it possible to put
-    // 'overlays' anywhere in the layer stack.
-    // Insert the layer beneath the first symbol layer.
+            'fill-color': '#f08',
+            'fill-opacity': 0.4
+        }
     }, firstSymbolId);
+
+    map.addLayer({
+        'id': 'test',
+        'type': 'circle',
+        'source': {
+            'type': 'geojson',
+            'data': 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson'
+        }
+    });
 
     map.addControl(new mapboxgl.FullscreenControl());
 
