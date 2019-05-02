@@ -23,7 +23,6 @@ map.on('load', function () {
 
                 for (var prop in details) {
                     resultingDOM += "<span class='title'>" + prop.toUpperCase() + "</span>" + " " + details[prop] + "</br>";
-                    console.log(data);
                 }
 
                 document.getElementById('details').innerHTML = resultingDOM;
@@ -89,3 +88,7 @@ map.on('load', function () {
     });
 
 });
+
+//http://www.naturalearthdata.com/
+
+//https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/  !!!!
