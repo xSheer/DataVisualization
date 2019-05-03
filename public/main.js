@@ -69,13 +69,19 @@ map.on('load', function () {
         }
     }, firstSymbolId);
 
+    map.addSource('earthquake', {type: 'geojson', data: '/getEarthquake'})
     map.addLayer({
         'id': 'test',
         'type': 'circle',
-        'source': {
-            'type': 'geojson',
-            'data': 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson'
-        }
+        'source': 'earthquake',
+        'paint': {
+            'circle-radius': (function IIFE () {
+                console.log(map.getSource("earthquake"));
+                return 6;
+             })(),
+            'circle-opacity': 0.8,
+            'circle-color': 'rgb(171, 72, 33)'
+          }
     });
 
     map.addControl(new mapboxgl.FullscreenControl());

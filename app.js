@@ -34,6 +34,23 @@ app.get('/findiss', function (req, res) {
     });
 });
 
+app.get('/getEarthquake', function (req, res) {
+    request("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson", function (err, resp, body) {
+        if (err) {
+            console.log(err);
+            res.status(400).json({error: 'Unable to usgs earthquakes'});
+            return;
+        }
+
+        var apiResponse = JSON.parse(body);
+        // var issGeoJSON = geojson.parse([apiResponse], {Point: ['latitude', 'longitude']});
+
+        res.json(apiResponse);
+    });
+});
+
+
+// https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson
 app.listen(app.get('port'), function () {
     console.log("App listening on port " + app.get('port'));
 });
