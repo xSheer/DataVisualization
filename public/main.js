@@ -22,9 +22,9 @@ map.on('load', function () {
                     resultingDOM = "";
 
                 for (var prop in details) {
+                    if(prop == 'name' || prop == 'velocity' || prop == 'solar_lat'|| prop == 'solar_lon')
                     resultingDOM += "<span class='title'>" + prop.toUpperCase() + "</span>" + " " + details[prop] + "</br>";
                 }
-
                 document.getElementById('details').innerHTML = resultingDOM;
                 document.getElementById('locate').setAttribute("data-coordinate", JSON.stringify(issLastSeen));
 
@@ -199,7 +199,10 @@ map.on('load', function () {
       
         var popup = new mapboxgl.Popup({ offset: [0, -15] })
           .setLngLat(feature.geometry.coordinates)
-          .setHTML('<h3>' + feature.properties.mag + '</h3><p>' + feature.properties.place + '</p>')
+          .setHTML('<h3>Earthquake Detail</h3>' +
+                        '<p><b>Magnitude: </b>' + feature.properties.mag + '</p>' +
+                        '<p><b>Place: </b>' + feature.properties.place + '</p>'
+                    )
           .setLngLat(feature.geometry.coordinates)
           .addTo(map);
     });
