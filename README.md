@@ -1,5 +1,5 @@
 
-**Data visualization of earthquakes from U.S. Geological Survey & GeoJson.**
+# Data visualization of earthquakes from U.S. Geological Survey & GeoJson.
 
 ## Overview
 This project visualizes earthquakes and urban cities around the globe. To achieve this different 
