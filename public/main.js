@@ -186,8 +186,25 @@ map.on('load', function () {
         });
     });
 
+    map.on('click', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+          layers: ['earthquakes-point']
+        });
+      
+        if (!features.length) {
+          return;
+        }
+      
+        var feature = features[0];
+      
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML('<h3>' + feature.properties.mag + '</h3><p>' + feature.properties.place + '</p>')
+          .setLngLat(feature.geometry.coordinates)
+          .addTo(map);
+    });
 });
 
 //http://www.naturalearthdata.com/
 
-//https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/  !!!!
+//https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/ 
