@@ -101,12 +101,12 @@ map.on('load', function () {
                 "interpolate",
                 ["linear"],
                 ["heatmap-density"],
-                0, "rgba(33,102,172,0)",
-                0.2, "rgb(103,169,207)",
-                0.4, "rgb(209,229,240)",
-                0.6, "rgb(253,219,199)",
-                0.8, "rgb(239,138,98)",
-                1, "rgb(178,24,43)"
+                0, "rgba(69,117,180,0)",
+                0.2, "rgb(145,191,219)",
+                0.4, "rgb(224,243,248)",
+                0.6, "rgb(254,224,144)",
+                0.8, "rgb(252,141,89)",
+                1, "rgb(215,48,39)"
             ],
             // Adjust the heatmap radius by zoom level
             "heatmap-radius": [
@@ -195,7 +195,7 @@ map.on('load', function () {
         if (!features.length) {
           return;
         }
-      
+
         var feature = features[0];
       
         var popup = new mapboxgl.Popup({ offset: [0, -15] })
@@ -242,3 +242,5 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 //http://www.naturalearthdata.com/
 
 //https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/ 
+
+//https://d2ad6b4ur7yvpq.cloudfront.net/
