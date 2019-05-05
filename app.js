@@ -1,5 +1,6 @@
 /**
- * An express application which serves root route and provides an API to get current ISS coordinates in GeoJSON format.
+ * An express application which serves root route and provides an API 
+ * to get current ISS coordinates and usgs earthquakes in GeoJSON format.
  */
 
 var request = require('request'),
@@ -7,7 +8,9 @@ var request = require('request'),
     express = require('express'),
     path = require('path');
 
-var ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
+let ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
+
+let USGS_EARTHQUAKES = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson";
 
 var app = express();
 
@@ -35,20 +38,18 @@ app.get('/findiss', function (req, res) {
 });
 
 app.get('/getEarthquake', function (req, res) {
-    request("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson", function (err, resp, body) {
+    request(USGS_EARTHQUAKES, function (err, resp, body) {
     if (err) {
         console.log(err);
-        res.status(400).json({error: 'Unable to usgs earthquakes'});
+        res.status(400).json({error: 'Unable to contact usgs earthquakes API'});
         return;
     }
     var apiResponse = JSON.parse(body);
-    // var issGeoJSON = geojson.parse([apiResponse], {Point: ['latitude', 'longitude']});
 
     res.json(apiResponse);
     });
 });
 
-// https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson
 app.listen(app.get('port'), function () {
     console.log("App listening on port " + app.get('port'));
 });

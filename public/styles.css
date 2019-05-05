@@ -12,11 +12,11 @@ body {
 
 #details {
     position: fixed;
-    height: 200px;
+    height: 100px;
     background: transparent;
     color: cadetblue;
     padding-left: 10px;
-    top:300px;
+    top:360px;
 }
 
 #details .title {
@@ -26,6 +26,8 @@ body {
 
 #locate {
     background: #3887be;
+    font-size: 13px;
+    color: white;
     width: 110px;
     height: 30px;
     position: fixed;

@@ -57,7 +57,7 @@ map.on('load', function () {
         }   
     }
     map.addLayer({
-        'id': 'urban-areas-fill',
+        'id': 'urban-areas',
         'type': 'fill',
         'source': {
         'type': 'geojson',
@@ -210,7 +210,7 @@ map.on('load', function () {
 
     document.getElementById('slider').addEventListener('input', function(e) {
         var mag = parseInt(e.target.value);
-        
+
         // update the map
         if(mag === 1){
             map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.9], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
@@ -243,9 +243,26 @@ map.on('load', function () {
         // update text in the UI
         document.getElementById('current-magnitude').innerText = currentMagText;
       });
+
+      document.getElementById('filters').addEventListener('change', function(e) {
+        var time = e.target.value;
+
+        //TODO: How many milliseconds are 7 days and one day? usgs earthquakes timestep is written in millisecounds
+        // subtract those from "newest" earthquake and limit during an if which earthqakes are in this range
+        // update the map filter
+        if (time === 'month') {
+          console.log("month");
+        } else if (time === 'week') {
+            console.log("week");
+        } else if (time === 'today') {
+            console.log("today");
+        }
+
+        //map.setFilter('collisions', ['all', filterDay]);
+      });
 });
 
-var toggleableLayerIds = ['earthquakes-heat', 'urban-areas-fill'];
+var toggleableLayerIds = ['earthquakes-heat', 'urban-areas'];
  
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
