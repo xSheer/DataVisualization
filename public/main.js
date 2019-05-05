@@ -207,6 +207,42 @@ map.on('load', function () {
           .setLngLat(feature.geometry.coordinates)
           .addTo(map);
     });
+
+    document.getElementById('slider').addEventListener('input', function(e) {
+        var mag = parseInt(e.target.value);
+        
+        // update the map
+        if(mag === 1){
+            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.9], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.9], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+        }else if(mag === 2){
+            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+        }else if(mag === 3){
+            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+        }else if(mag === 4){
+            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+        }else if(mag === 5){
+            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+        }else if(mag === 6){
+            map.setFilter('earthquakes-heat', ['>=', ['number', ['get', 'mag']], mag]);
+            map.setFilter('earthquakes-point', ['>=', ['number', ['get', 'mag']], mag]);
+        }
+      
+        let currentMagText = 'from: '+ (mag-0.5) +' to: '+(mag+0.5);
+
+        if(mag >= 0.1 && mag <= 1.5){
+            currentMagText = 'from: 0.1 to: '+(mag+0.5);
+        }
+        else if(mag >= 6){
+            currentMagText = '6+'
+        }
+        // update text in the UI
+        document.getElementById('current-magnitude').innerText = currentMagText;
+      });
 });
 
 var toggleableLayerIds = ['earthquakes-heat', 'urban-areas-fill'];
