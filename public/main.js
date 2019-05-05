@@ -246,19 +246,18 @@ map.on('load', function () {
 
       document.getElementById('filters').addEventListener('change', function(e) {
         var time = e.target.value;
+        let selectedTimeRatio = 0;
 
-        //TODO: How many milliseconds are 7 days and one day? usgs earthquakes timestep is written in millisecounds
-        // subtract those from "newest" earthquake and limit during an if which earthqakes are in this range
         // update the map filter
         if (time === 'month') {
-          console.log("month");
+            map.setFilter('earthquakes-heat', ['<=', selectedTimeRatio ,['number',['get', 'time']]]);
         } else if (time === 'week') {
-            console.log("week");
+            selectedTimeRatio = new Date().getTime() - 604800000;
+            map.setFilter('earthquakes-heat', ['<=', selectedTimeRatio ,['number',['get', 'time']]]);
         } else if (time === 'today') {
-            console.log("today");
+            selectedTimeRatio = new Date().getTime() - 86400000;
+            map.setFilter('earthquakes-heat', ['<=', selectedTimeRatio ,['number',['get', 'time']]]);
         }
-
-        //map.setFilter('collisions', ['all', filterDay]);
       });
 });
 
@@ -297,3 +296,5 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 //https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/ 
 
 //https://d2ad6b4ur7yvpq.cloudfront.net/
+
+//TODO: implement into the earthquake details "time" of earthquake in days/weeks 
