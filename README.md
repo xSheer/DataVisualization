@@ -2,7 +2,7 @@
 # Data visualization of earthquakes from U.S. Geological Survey & GeoJson.
 
 ## Overview
-This project visualizes earthquakes and urban cities around the globe. To achieve this different 
+This project visualizes earthquakes and urban cities around the globe. To achieve this goal different 
 virtualization methods are used.
 
 1. Earthquakes got visualized as points with different sizes depending on their maginute. (Zoom level 7+)

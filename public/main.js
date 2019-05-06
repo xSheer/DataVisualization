@@ -7,12 +7,14 @@ var map = new mapboxgl.Map({
     zoom: 1
 });
 
-var url = '/findiss';
+let findiss = '/findiss';
+let tectonicPlates = '/getTectonicPlate';
+let earthquakes = '/getEarthquake';
 
 map.on('load', function () {
 
     window.setInterval(function () {
-        fetch(url).then(function (response) {
+        fetch(findiss).then(function (response) {
             return response.json();
         })
             .then(function (json) {
@@ -36,7 +38,7 @@ map.on('load', function () {
 
     }, 2000);
 
-    map.addSource('iss', {type: 'geojson', data: url});
+    map.addSource('iss', {type: 'geojson', data: findiss});
     map.addLayer({
         "id": "iss",
         "type": "symbol",
@@ -70,7 +72,7 @@ map.on('load', function () {
         }
     }, firstSymbolId);
 
-    map.addSource('earthquake', {type: 'geojson', data: '/getEarthquake'});
+    map.addSource('earthquake', {type: 'geojson', data: earthquakes});
     map.addLayer({
         "id": "earthquakes-heat",
         "type": "heatmap",
@@ -177,6 +179,21 @@ map.on('load', function () {
             ]
         }
     }, 'waterway-label');
+
+    map.addSource('tectonicPlates', {type: 'geojson', data: tectonicPlates});
+    map.addLayer({
+        "id": "route",
+        "type": "line",
+        "source": 'tectonicPlates',
+        "layout": {
+            "line-join": "round",
+            "line-cap": "round"
+        },
+        "paint": {
+            "line-color": "#888",
+            "line-width": 8
+        }
+    });
 
     map.addControl(new mapboxgl.FullscreenControl());
 
@@ -297,4 +314,16 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 
 //https://d2ad6b4ur7yvpq.cloudfront.net/
 
+//Expression:
+//https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-decision
+
+//tectonic plates
+//https://github.com/fraxen/tectonicplates
+
+
+//TODO: apply mutiple filters at once
+//TODO: Button for tectonic, add opacity, make it smaller and below heatmap/earthquake layers
 //TODO: implement into the earthquake details "time" of earthquake in days/weeks 
+//TODO: switching maps like light or dark
+//TODO: add posibillity to pop up/in the menu
+//TODO: tektonische platten

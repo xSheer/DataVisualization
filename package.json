@@ -1,6 +1,6 @@
 {
-  "name": "chapter4",
-  "description": "ISS finder Application",
+  "name": "data-virtualization",
+  "description": "This project visualizes earthquakes amd urban cities around the globe. To achieve this goal different virtualization methods are used",
   "main": "app.js",
   "version": "0.0.1",
   "scripts": {

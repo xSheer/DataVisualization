@@ -6,10 +6,10 @@
 var request = require('request'),
     geojson = require('geojson'),
     express = require('express'),
-    path = require('path');
+    path = require('path'),
+    tectonicPlate = require('./Source/tectonic_plates_boundaries.json');
 
 let ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
-
 let USGS_EARTHQUAKES = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson";
 
 var app = express();
@@ -48,6 +48,10 @@ app.get('/getEarthquake', function (req, res) {
 
     res.json(apiResponse);
     });
+});
+
+app.get('/getTectonicPlate', function (req, res) {
+    return tectonicPlate;
 });
 
 app.listen(app.get('port'), function () {
