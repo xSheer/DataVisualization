@@ -37,6 +37,20 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
 }
 
+#consoleDisplay {
+    background: #3887be;
+    font-size: 13px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    z-index: 1;
+}
+
 .mapboxgl-popup {
     max-width: 250px;
 }
@@ -131,6 +145,7 @@ a {
 
 #console {
     position: absolute;
+    display: block;
     width: 240px;
     margin: 10px;
     padding: 10px 20px;

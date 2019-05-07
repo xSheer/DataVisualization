@@ -247,8 +247,7 @@ map.on('load', function () {
             filterMagnitude = ['>=', ['number', ['get', 'mag']], mag];
         }
 
-        map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
-        map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
+        setFilters();
       
         let currentMagText = 'from: '+ (mag-0.5) +' to: '+(mag+0.5);
 
@@ -260,9 +259,9 @@ map.on('load', function () {
         }
         // update text in the UI
         document.getElementById('current-magnitude').innerText = currentMagText;
-      });
+    });
 
-      document.getElementById('filters').addEventListener('change', function(e) {
+    document.getElementById('filters').addEventListener('change', function(e) {
         var time = e.target.value;
         let selectedTimeRatio = 0;
 
@@ -276,11 +275,14 @@ map.on('load', function () {
             selectedTimeRatio = new Date().getTime() - 86400000;
             filterTime =['<=', selectedTimeRatio ,['number',['get', 'time']]];
         }
+        setFilters();
+    });
+
+    function setFilters(){
         map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
         map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
-      });
-    map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
-    map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
+    }
+    setFilters();
 });
 
 var toggleableLayerIds = ['tectonic-plates', 'earthquakes-heat', 'urban-areas'];
@@ -313,6 +315,16 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     layers.appendChild(link);
 }
 
+function toggleConsole() {
+    let menuBox = document.getElementById('console');    
+    if(menuBox.style.display == "block") {
+        menuBox.style.display = "none";
+    }
+    else { 
+        menuBox.style.display = "block";
+    }
+}
+
 //http://www.naturalearthdata.com/
 
 //https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/ 
@@ -326,8 +338,6 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 //https://github.com/fraxen/tectonicplates
 
 
-//TODO: apply mutiple filters at once (and default filter at the start of loading)
-//TODO: Button for tectonic, add opacity, make it smaller and !!!below heatmap/earthquake layers!!!
 //TODO: implement into the earthquake details "time" of earthquake in days/weeks !!FORMAT it!!!
 //TODO: switching maps like light or dark
 //TODO: add posibillity to pop up/in the menu (auseinklappen)
