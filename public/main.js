@@ -13,6 +13,9 @@ let earthquakes = '/getEarthquake';
 
 map.on('load', function () {
 
+    let filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], 3-0.5], ['<=', ['number', ['get', 'mag']], 3+0.5]];
+    let filterTime = ['<=', 0 ,['number',['get', 'time']]];
+
     window.setInterval(function () {
         fetch(findiss).then(function (response) {
             return response.json();
@@ -231,24 +234,21 @@ map.on('load', function () {
 
         // update the map
         if(mag === 1){
-            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.9], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
-            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.9], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], mag-0.9], ['<=', ['number', ['get', 'mag']], mag+0.5]];
         }else if(mag === 2){
-            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
-            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]];
         }else if(mag === 3){
-            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
-            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]];
         }else if(mag === 4){
-            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
-            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            filterMagnitude =['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]];
         }else if(mag === 5){
-            map.setFilter('earthquakes-heat', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
-            map.setFilter('earthquakes-point', ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]]);
+            filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]];
         }else if(mag === 6){
-            map.setFilter('earthquakes-heat', ['>=', ['number', ['get', 'mag']], mag]);
-            map.setFilter('earthquakes-point', ['>=', ['number', ['get', 'mag']], mag]);
+            filterMagnitude = ['>=', ['number', ['get', 'mag']], mag];
         }
+
+        map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
+        map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
       
         let currentMagText = 'from: '+ (mag-0.5) +' to: '+(mag+0.5);
 
@@ -268,15 +268,19 @@ map.on('load', function () {
 
         // update the map filter
         if (time === 'month') {
-            map.setFilter('earthquakes-heat', ['<=', selectedTimeRatio ,['number',['get', 'time']]]);
+            filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'week') {
             selectedTimeRatio = new Date().getTime() - 604800000;
-            map.setFilter('earthquakes-heat', ['<=', selectedTimeRatio ,['number',['get', 'time']]]);
+            filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'today') {
             selectedTimeRatio = new Date().getTime() - 86400000;
-            map.setFilter('earthquakes-heat', ['<=', selectedTimeRatio ,['number',['get', 'time']]]);
+            filterTime =['<=', selectedTimeRatio ,['number',['get', 'time']]];
         }
+        map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
+        map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
       });
+    map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
+    map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
 });
 
 var toggleableLayerIds = ['tectonic-plates', 'earthquakes-heat', 'urban-areas'];
