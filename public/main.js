@@ -4,7 +4,8 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/dark-v9',
     center: [0, 0],
     //maxBounds: [[-180, -85], [180, 85]],
-    zoom: 1
+    zoom: 1,
+    attributionControl: false
 });
 
 let findiss = '/findiss';
@@ -329,6 +330,8 @@ function toggleConsole() {
 
 //https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/ 
 
+//https://docs.mapbox.com/help/tutorials/show-changes-over-time/
+
 //https://d2ad6b4ur7yvpq.cloudfront.net/
 
 //Expression:
@@ -338,6 +341,7 @@ function toggleConsole() {
 //https://github.com/fraxen/tectonicplates
 
 
-//TODO: implement into the earthquake details "time" of earthquake in days/weeks !!FORMAT it!!!
 //TODO: switching maps like light or dark
-//TODO: add posibillity to pop up/in the menu (auseinklappen)
+//TODO: add possibility to pop up/in the menu (make it a better fit and coloring)
+//TODO: Maybe add animation depending on eartquake magnitude and zoom level to reduce lags
+//TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
