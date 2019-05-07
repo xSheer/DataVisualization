@@ -51,7 +51,7 @@ app.get('/getEarthquake', function (req, res) {
 });
 
 app.get('/getTectonicPlate', function (req, res) {
-    return tectonicPlate;
+    res.json(tectonicPlate);
 });
 
 app.listen(app.get('port'), function () {

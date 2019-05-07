@@ -190,8 +190,8 @@ map.on('load', function () {
             "line-cap": "round"
         },
         "paint": {
-            "line-color": "#888",
-            "line-width": 8
+            "line-color": "rgba(33,102,172,0.3)",
+            "line-width": 4
         }
     });
 
