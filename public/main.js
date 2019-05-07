@@ -182,7 +182,7 @@ map.on('load', function () {
 
     map.addSource('tectonicPlates', {type: 'geojson', data: tectonicPlates});
     map.addLayer({
-        "id": "route",
+        "id": "tectonic-plates",
         "type": "line",
         "source": 'tectonicPlates',
         "layout": {
@@ -219,7 +219,8 @@ map.on('load', function () {
           .setLngLat(feature.geometry.coordinates)
           .setHTML('<h3>Earthquake Detail</h3>' +
                         '<p><b>Magnitude: </b>' + feature.properties.mag + '</p>' +
-                        '<p><b>Place: </b>' + feature.properties.place + '</p>'
+                        '<p><b>Time: </b>' + new Date(feature.properties.time) + '</p>' +
+                        '<p><b>Place: </b>' + feature.properties.place + '</p>' 
                     )
           .setLngLat(feature.geometry.coordinates)
           .addTo(map);
@@ -278,7 +279,7 @@ map.on('load', function () {
       });
 });
 
-var toggleableLayerIds = ['earthquakes-heat', 'urban-areas'];
+var toggleableLayerIds = ['tectonic-plates', 'earthquakes-heat', 'urban-areas'];
  
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
@@ -321,9 +322,8 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 //https://github.com/fraxen/tectonicplates
 
 
-//TODO: apply mutiple filters at once
-//TODO: Button for tectonic, add opacity, make it smaller and below heatmap/earthquake layers
-//TODO: implement into the earthquake details "time" of earthquake in days/weeks 
+//TODO: apply mutiple filters at once (and default filter at the start of loading)
+//TODO: Button for tectonic, add opacity, make it smaller and !!!below heatmap/earthquake layers!!!
+//TODO: implement into the earthquake details "time" of earthquake in days/weeks !!FORMAT it!!!
 //TODO: switching maps like light or dark
-//TODO: add posibillity to pop up/in the menu
-//TODO: tektonische platten
+//TODO: add posibillity to pop up/in the menu (auseinklappen)
