@@ -12,6 +12,8 @@ let findiss = '/findiss';
 let tectonicPlates = '/getTectonicPlate';
 let earthquakes = '/getEarthquake';
 
+let hoveredStateId = null;
+
 map.on('load', function () {
 
     let filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], 3-0.5], ['<=', ['number', ['get', 'mag']], 3+0.5]];
@@ -76,7 +78,7 @@ map.on('load', function () {
         }
     }, firstSymbolId);
 
-    map.addSource('earthquake', {type: 'geojson', data: earthquakes});
+    map.addSource('earthquake', {type: 'geojson', data: earthquakes, generateId: true});
     map.addLayer({
         "id": "earthquakes-heat",
         "type": "heatmap",
@@ -184,6 +186,26 @@ map.on('load', function () {
         }
     }, 'waterway-label');
 
+    map.addLayer({
+        "id": "earthquakes-point-animation",
+        "type": "circle",
+        "source": "earthquake",
+        "paint": {
+            "circle-color": "#627BC1",
+            "circle-opacity": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                1, 0.5
+            ],
+            "circle-opacity": [
+                "interpolate",
+                ["linear"],
+                ["zoom"],
+                7, 0,
+                8, 1
+            ]
+        }
+    });
+
     map.addSource('tectonicPlates', {type: 'geojson', data: tectonicPlates});
     map.addLayer({
         "id": "tectonic-plates",
@@ -279,9 +301,34 @@ map.on('load', function () {
         setFilters();
     });
 
+    map.on('mousemove', 'earthquakes-point-animation', (e) => {
+        map.getCanvas().style.cursor = 'pointer';
+        if (e.features.length > 0) {
+          if (hoveredStateId) {
+            // set the hover attribute to false with feature state
+            map.setFeatureState({
+              source: 'earthquake',
+              id: hoveredStateId
+            }, {
+              hover: false
+            });
+          }
+      
+          hoveredStateId = e.features[0].id;
+          // set the hover attribute to true with feature state
+          map.setFeatureState({
+            source: 'earthquake',
+            id: hoveredStateId
+          }, {
+            hover: true
+          });
+        }
+    });
+
     function setFilters(){
         map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
         map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
+        map.setFilter('earthquakes-point-animation', ['all', filterMagnitude, filterTime]);
     }
     setFilters();
 });
@@ -342,6 +389,7 @@ function toggleConsole() {
 
 
 //TODO: switching maps like light or dark
+//TODO: corrent circle size depending on magnutude (magnitude is alright calculated down via log10 and need to get)
 //TODO: add possibility to pop up/in the menu (make it a better fit and coloring)
-//TODO: Maybe add animation depending on eartquake magnitude and zoom level to reduce lags
+//TODO: Maybe add animation or magnituderange (via hovering) depending on eartquake magnitude and zoom level to reduce lags
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
