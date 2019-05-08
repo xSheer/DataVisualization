@@ -12,7 +12,7 @@ let findiss = '/findiss';
 let tectonicPlates = '/getTectonicPlate';
 let earthquakes = '/getEarthquake';
 
-let hoveredStateId = null;
+let earthquakeId = null;
 
 map.on('load', function () {
 
@@ -191,17 +191,29 @@ map.on('load', function () {
         "type": "circle",
         "source": "earthquake",
         "paint": {
-            "circle-color": "#627BC1",
-            "circle-opacity": ["case",
-                ["boolean", ["feature-state", "hover"], false],
-                1, 0.5
-            ],
-            "circle-opacity": [
+            "circle-radius": [
                 "interpolate",
                 ["linear"],
                 ["zoom"],
-                7, 0,
-                8, 1
+                7, [
+                    "interpolate",
+                    ["linear"],
+                    ["get", "mag"],
+                    1, 1,
+                    6, 4
+                ],
+                16, [
+                    "interpolate",
+                    ["linear"],
+                    ["get", "mag"],
+                    1, 5,
+                    6, 50
+                ]
+            ],
+            "circle-color": "rgb(178,24,43)",
+            "circle-opacity": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                1, 0
             ]
         }
     });
@@ -301,28 +313,23 @@ map.on('load', function () {
         setFilters();
     });
 
-    map.on('mousemove', 'earthquakes-point-animation', (e) => {
-        map.getCanvas().style.cursor = 'pointer';
-        if (e.features.length > 0) {
-          if (hoveredStateId) {
-            // set the hover attribute to false with feature state
-            map.setFeatureState({
-              source: 'earthquake',
-              id: hoveredStateId
-            }, {
-              hover: false
-            });
-          }
-      
-          hoveredStateId = e.features[0].id;
-          // set the hover attribute to true with feature state
-          map.setFeatureState({
-            source: 'earthquake',
-            id: hoveredStateId
-          }, {
-            hover: true
-          });
+    map.on("mousemove", "earthquakes-point-animation", function(e) {
+        if (e.features.length > 0 && map.getZoom() >= 7) {
+            if (earthquakeId) {
+                map.setFeatureState({source: 'earthquake', id: earthquakeId}, { hover: false});
+            }
+            earthquakeId = e.features[0].id;
+            map.setFeatureState({source: 'earthquake', id: earthquakeId}, { hover: true});
         }
+    });
+         
+    // When the mouse leaves the arthquakes-point-animation layer, update the feature state of the
+    // previously hovered feature.
+    map.on("mouseleave", "earthquakes-point-animation", function() {
+        if (earthquakeId) {
+            map.setFeatureState({source: 'earthquake', id: earthquakeId}, { hover: false});
+        }
+        earthquakeId =  null;
     });
 
     function setFilters(){
@@ -330,6 +337,8 @@ map.on('load', function () {
         map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
         map.setFilter('earthquakes-point-animation', ['all', filterMagnitude, filterTime]);
     }
+
+    //default settings of menu will get applied at the start
     setFilters();
 });
 
@@ -393,3 +402,5 @@ function toggleConsole() {
 //TODO: add possibility to pop up/in the menu (make it a better fit and coloring)
 //TODO: Maybe add animation or magnituderange (via hovering) depending on eartquake magnitude and zoom level to reduce lags
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
+
+//TODO: implement magnitude size depending to animation and modified onclick to onhover for more earthquake details
