@@ -152,6 +152,11 @@ a {
     background-color: white;
 }
 
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 /* .mapbox-logo{
     display: none !important;
 } */

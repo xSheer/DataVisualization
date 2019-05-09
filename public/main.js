@@ -258,7 +258,9 @@ map.on('load', function () {
           .setHTML('<h3>Earthquake Detail</h3>' +
                         '<p><b>Magnitude: </b>' + feature.properties.mag + '</p>' +
                         '<p><b>Time: </b>' + new Date(feature.properties.time) + '</p>' +
-                        '<p><b>Place: </b>' + feature.properties.place + '</p>' 
+                        '<p><b>Place: </b>' + feature.properties.place + '</p>' +
+                        '<p><b>Long: </b>' + feature.geometry.coordinates[0].toFixed(2) + '</p>' +
+                        '<p><b>Lat: </b>' + feature.geometry.coordinates[1].toFixed(2) + '</p>'
                     )
           .setLngLat(feature.geometry.coordinates)
           .addTo(map);
@@ -395,6 +397,7 @@ function toggleConsole() {
 
 //tectonic plates
 //https://github.com/fraxen/tectonicplates
+//https://www.gislounge.com/find-tectonic-plate-gis-data/
 
 
 //TODO: switching maps like light or dark
@@ -403,4 +406,10 @@ function toggleConsole() {
 //TODO: Maybe add animation or magnituderange (via hovering) depending on eartquake magnitude and zoom level to reduce lags
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
 
+//TODO: Add long/lat to earthquake details
 //TODO: implement magnitude size depending to animation and modified onclick to onhover for more earthquake details
+
+// Earthquake’s magnitude is measured in logarithmic scale. Which means an earthquake with magnitude 5 is 10 times stronger than one with magnitude 4. 
+// Also, area of a circle is proportional to the square of its radius. 
+// So, √ (10^ (magnitude)) would be a better variable to compare the strength of an earthquake than the magnitude in Richter scale, 
+// if we are encoding it with the size of circle.
