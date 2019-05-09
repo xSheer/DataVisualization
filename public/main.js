@@ -375,16 +375,6 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     layers.appendChild(link);
 }
 
-function toggleConsole() {
-    let menuBox = document.getElementById('console');    
-    if(menuBox.style.display == "block") {
-        menuBox.style.display = "none";
-    }
-    else { 
-        menuBox.style.display = "block";
-    }
-}
-
 function panelSelect(e){
   if(state.panelOpen){
     document.getElementById('descriptionPanel').style.height = '26px';

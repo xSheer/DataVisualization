@@ -16,7 +16,7 @@ body {
     background: transparent;
     color: cadetblue;
     padding-left: 10px;
-    top:360px;
+    top: 10px;
 }
 
 #details .title {
@@ -35,20 +35,6 @@ body {
     top: 10px;
     border-radius: 3px;
     font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
-}
-
-#consoleDisplay {
-    background: #3887be;
-    font-size: 13px;
-    color: white;
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    left: 10px;
-    top: 10px;
-    border-radius: 3px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
-    z-index: 1;
 }
 
 .mapboxgl-popup {
@@ -147,9 +133,9 @@ a {
     position: absolute;
     display: block;
     width: 240px;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: white;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 20px;
+    background-color: rgba(80,80,80,0);
 }
 
 p {
