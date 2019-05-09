@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Data visualization of earthquakes from U.S. Geological Survey & GeoJson</title>
     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,35 +15,39 @@
 <button id="locate">locate ISS</button>
 <div id="details"></div>
 <button id="consoleDisplay" class="btn" onclick="toggleConsole()"><i class="fa fa-close"></i></button>
-<div id='console'>
-    <h1>Earthquake visualization</h1>
-    <p>Coloring & sizing depending on magnitude</p>
-    <div class='session'>
-        <h2>Magnitude</h2>
-        <div class='row colors'>
+<div class="descriptionPanel" id="descriptionPanel" style="height: 420px;">
+    <span onclick="panelSelect()" id="glyph" class="fas fa-angle-down"></span>
+    <hr>
+    <div id='console'>
+        <h1>Earthquake visualization</h1>
+        <p>Coloring & sizing depending on magnitude</p>
+        <div class='session'>
+            <h2>Magnitude</h2>
+            <div class='row colors'>
+            </div>
+            <div class='row labels'>
+                <div class='label'>1</div>
+                <div class='label'>2</div>
+                <div class='label'>3</div>
+                <div class='label'>4</div>
+                <div class='label'>5</div>
+                <div class='label'>6+</div>
+            </div>
         </div>
-        <div class='row labels'>
-            <div class='label'>1</div>
-            <div class='label'>2</div>
-            <div class='label'>3</div>
-            <div class='label'>4</div>
-            <div class='label'>5</div>
-            <div class='label'>6+</div>
+        <div class='session' id='sliderbar'>
+            <h2>Magnitude: <label id='current-magnitude'>from: 2.5 to: 3.5</label></h2>
+            <input id='slider' class='row' type='range' min='1' max='6' step='1' value='3' />
         </div>
-    </div>
-    <div class='session' id='sliderbar'>
-        <h2>Magnitude: <label id='current-magnitude'>from: 2.5 to: 3.5</label></h2>
-        <input id='slider' class='row' type='range' min='1' max='6' step='1' value='3' />
-    </div>
-    <div class='session'>
-        <h2>Date & Time</h2>
-        <div class='row' id='filters'>
-            <input id='month' type='radio' name='toggle' value='month' checked='checked'>
-            <label for='month'>30 days</label>
-            <input id='week' type='radio' name='toggle' value='week'>
-            <label for='week'>7 days</label>
-            <input id='today' type='radio' name='toggle' value='today'>
-            <label for='today'>today</label>
+        <div class='session'>
+            <h2>Date & Time</h2>
+            <div class='row' id='filters'>
+                <input id='month' type='radio' name='toggle' value='month' checked='checked'>
+                <label for='month'>30 days</label>
+                <input id='week' type='radio' name='toggle' value='week'>
+                <label for='week'>7 days</label>
+                <input id='today' type='radio' name='toggle' value='today'>
+                <label for='today'>today</label>
+            </div>
         </div>
     </div>
 </div>

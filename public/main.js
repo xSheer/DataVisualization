@@ -13,6 +13,7 @@ let tectonicPlates = '/getTectonicPlate';
 let earthquakes = '/getEarthquake';
 
 let earthquakeId = null;
+let state = { panelOpen: true };
 
 map.on('load', function () {
 
@@ -383,6 +384,19 @@ function toggleConsole() {
         menuBox.style.display = "block";
     }
 }
+
+function panelSelect(e){
+  if(state.panelOpen){
+    document.getElementById('descriptionPanel').style.height = '26px';
+    document.getElementById('glyph').className = "fas fa-angle-up";
+    state.panelOpen = false;
+  } else {
+    document.getElementById('descriptionPanel').style.height = '420px';
+    document.getElementById('glyph').className = "fas fa-angle-down";
+    state.panelOpen = true;
+  }
+}
+
 
 //http://www.naturalearthdata.com/
 
