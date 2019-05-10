@@ -155,7 +155,7 @@ hr {
 
 .descriptionPanel {
     position: absolute;
-    bottom: 20px;
+    bottom: 65px;
     right: 20px;
     z-index: 2;
     width: 300px;
@@ -169,4 +169,37 @@ hr {
 #glyph {
     position: relative;
     margin-left: 45%;
+}
+
+.mapContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    width: 300px;
+    height: 40px;
+    background: rgba(80,80,80,.75);
+    transition: width 2s, height 2s;
+    border-radius: 7px;
+}
+
+.mapItem {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.colorBox {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.layerDescription {
+    color: white;
+    float: left;
+    margin-left: 10px;
 }

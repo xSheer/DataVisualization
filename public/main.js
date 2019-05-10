@@ -31,8 +31,11 @@ map.on('load', function () {
                     resultingDOM = "";
 
                 for (var prop in details) {
-                    if(prop == 'name' || prop == 'velocity' || prop == 'solar_lat'|| prop == 'solar_lon')
-                    resultingDOM += "<span class='title'>" + prop.toUpperCase() + "</span>" + " " + details[prop] + "</br>";
+                    if(prop == 'name')
+                        resultingDOM += "<span class='title'>" + prop.toUpperCase() + "</span>" + " " + details[prop] + "</br>";
+                    else if(prop == 'solar_lat'|| prop == 'solar_lon' || prop == 'velocity'){
+                        resultingDOM += "<span class='title'>" + prop.toUpperCase() + "</span>" + " " + details[prop].toFixed(3) + "</br>";
+                    }
                 }
                 document.getElementById('details').innerHTML = resultingDOM;
                 document.getElementById('locate').setAttribute("data-coordinate", JSON.stringify(issLastSeen));
@@ -377,7 +380,7 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 
 function panelSelect(e){
   if(state.panelOpen){
-    document.getElementById('descriptionPanel').style.height = '26px';
+    document.getElementById('descriptionPanel').style.height = '25px';
     document.getElementById('glyph').className = "fas fa-angle-up";
     state.panelOpen = false;
   } else {
@@ -405,13 +408,12 @@ function panelSelect(e){
 
 
 //TODO: switching maps like light or dark
-//TODO: corrent circle size depending on magnutude (magnitude is alright calculated down via log10 and need to get)
-//TODO: add possibility to pop up/in the menu (make it a better fit and coloring)
+//TODO: corrent circle size depending on magnitude (magnitude is alright calculated down via log10)
 //TODO: Maybe add animation or magnituderange (via hovering) depending on eartquake magnitude and zoom level to reduce lags
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
 
-//TODO: Add long/lat to earthquake details
 //TODO: implement magnitude size depending to animation and modified onclick to onhover for more earthquake details
+//TODO: Implement switching maps within the new Menu (look at http://ryantm.io/population/)
 
 // Earthquake’s magnitude is measured in logarithmic scale. Which means an earthquake with magnitude 5 is 10 times stronger than one with magnitude 4. 
 // Also, area of a circle is proportional to the square of its radius. 
