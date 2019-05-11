@@ -233,7 +233,7 @@ map.on('load', function () {
         },
         "paint": {
             "line-color": "rgba(33,102,172,0.3)",
-            "line-width": 4
+            "line-width": 2
         }
     });
 
@@ -413,7 +413,6 @@ function panelSelect(e){
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
 
 //TODO: implement magnitude size depending to animation and modified onclick to onhover for more earthquake details
-//TODO: Implement switching maps within the new Menu (look at http://ryantm.io/population/)
 
 // Earthquake’s magnitude is measured in logarithmic scale. Which means an earthquake with magnitude 5 is 10 times stronger than one with magnitude 4. 
 // Also, area of a circle is proportional to the square of its radius. 

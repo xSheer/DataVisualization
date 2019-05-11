@@ -155,8 +155,8 @@ hr {
 
 .descriptionPanel {
     position: absolute;
-    bottom: 65px;
-    right: 20px;
+    bottom: 55px;
+    right: 10px;
     z-index: 2;
     width: 300px;
     height: 40px;
@@ -173,8 +173,8 @@ hr {
 
 .mapContainer {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
     z-index: 2;
     width: 300px;
     height: 40px;
