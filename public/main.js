@@ -365,9 +365,9 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
         
         var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
         
-        if (visibility === 'visible') {
-            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+        if (visibility === 'visible' || visibility === undefined) {
             this.className = '';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
         } else {
             this.className = 'active';
             map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
