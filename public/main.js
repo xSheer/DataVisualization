@@ -398,11 +398,10 @@ function panelSelect(e){
 //https://www.mapbox.com/maps/light-dark/
 
 
-//TODO: switching maps like light or dark
+//TODO: switching maps like light or dark (maybe search another way!)
 //TODO: corrent circle size depending on magnitude (magnitude is alright calculated down via log10)
 //TODO: Maybe add animation or magnituderange (via hovering) depending on eartquake magnitude and zoom level to reduce lags
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
-
 //TODO: implement magnitude size depending to animation and modified onclick to onhover for more earthquake details
 
 // Earthquake’s magnitude is measured in logarithmic scale. Which means an earthquake with magnitude 5 is 10 times stronger than one with magnitude 4. 
