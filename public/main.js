@@ -59,16 +59,6 @@ map.on('load', function () {
         }
     });
 
-    var layers = map.getStyle().layers;
-    // Find the index of the first symbol layer in the map style
-    //TODO: Log firstSymbolId!
-    var firstSymbolId;
-    for (var i = 0; i < layers.length; i++) {
-        if (layers[i].type === 'symbol') {
-            firstSymbolId = layers[i].id;
-            break;
-        }   
-    }
     map.addSource('urbanAreas', {type: 'geojson', data: urbanAreas});
     map.addLayer({
         'id': 'urban-areas',
@@ -79,7 +69,7 @@ map.on('load', function () {
             'fill-color': '#f08',
             'fill-opacity': 0.4
         }
-    }, firstSymbolId);
+    }, 'waterway-label');
 
     map.addSource('earthquake', {type: 'geojson', data: earthquakes, generateId: true});
     map.addLayer({
@@ -380,11 +370,11 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 function panelSelect(e){
   if(state.panelOpen){
     document.getElementById('descriptionPanel').style.height = '25px';
-    document.getElementById('glyph').className = "fas fa-angle-up";
+    document.getElementById('glyph').className = "fas fa-angle-up fa-2x";
     state.panelOpen = false;
   } else {
     document.getElementById('descriptionPanel').style.height = '420px';
-    document.getElementById('glyph').className = "fas fa-angle-down";
+    document.getElementById('glyph').className = "fas fa-angle-down fa-2x";
     state.panelOpen = true;
   }
 }
@@ -404,6 +394,8 @@ function panelSelect(e){
 //tectonic plates
 //https://github.com/fraxen/tectonicplates
 //https://www.gislounge.com/find-tectonic-plate-gis-data/
+
+//https://www.mapbox.com/maps/light-dark/
 
 
 //TODO: switching maps like light or dark

@@ -1,6 +1,7 @@
 /**
  * An express application which serves root route and provides an API 
- * to get current ISS coordinates and usgs earthquakes in GeoJSON format.
+ * to get current ISS coordinates, usgs earthquakes, urban areas and 
+ * tectonic plates in GeoJSON format.
  */
 
 var request = require('request'),
