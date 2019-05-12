@@ -11,6 +11,7 @@ var request = require('request'),
 
 let ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 let USGS_EARTHQUAKES = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson";
+let URBAN_AREAS = "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson";
 
 var app = express();
 
@@ -37,6 +38,19 @@ app.get('/findiss', function (req, res) {
     });
 });
 
+app.get('/getUrbanAreas', function (req, res) {
+    request(URBAN_AREAS, function (err, resp, body) {
+        if (err) {
+            console.log(err);
+            res.status(400).json({error: 'Unable to connect Urban Areas API'});
+            return;
+        }
+
+        var apiResponse = JSON.parse(body);
+        res.json(apiResponse);
+    });
+});
+
 app.get('/getEarthquake', function (req, res) {
     request(USGS_EARTHQUAKES, function (err, resp, body) {
     if (err) {
@@ -45,6 +59,12 @@ app.get('/getEarthquake', function (req, res) {
         return;
     }
     var apiResponse = JSON.parse(body);
+
+    //setting unnecessary data to null
+    for(var i = 0; i < apiResponse.features.length; i++){
+        apiResponse.features[i].properties.url = null;
+        apiResponse.features[i].properties.detail = null;
+    }
 
     res.json(apiResponse);
     });

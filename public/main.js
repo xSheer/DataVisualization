@@ -11,6 +11,7 @@ var map = new mapboxgl.Map({
 let findiss = '/findiss';
 let tectonicPlates = '/getTectonicPlate';
 let earthquakes = '/getEarthquake';
+let urbanAreas = '/getUrbanAreas';
 
 let earthquakeId = null;
 let state = { panelOpen: true };
@@ -68,13 +69,11 @@ map.on('load', function () {
             break;
         }   
     }
+    map.addSource('urbanAreas', {type: 'geojson', data: urbanAreas});
     map.addLayer({
         'id': 'urban-areas',
         'type': 'fill',
-        'source': {
-        'type': 'geojson',
-            'data': 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson'
-        },
+        'source': 'urbanAreas',
         'layout': {},
         'paint': {
             'fill-color': '#f08',
