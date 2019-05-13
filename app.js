@@ -61,10 +61,19 @@ app.get('/getEarthquake', function (req, res) {
     }
     var apiResponse = JSON.parse(body);
 
-    //setting unnecessary data to null
+    //setting unnecessary data to null -> solution geojson-pick
     for(var i = 0; i < apiResponse.features.length; i++){
         apiResponse.features[i].properties.url = null;
         apiResponse.features[i].properties.detail = null;
+        apiResponse.features[i].properties.code = null;
+        apiResponse.features[i].properties.ids = null;
+        apiResponse.features[i].properties.updated = null;
+        apiResponse.features[i].properties.title = null;
+        apiResponse.features[i].properties.types = null;
+        apiResponse.features[i].properties.status = null;
+        apiResponse.features[i].properties.type = null;
+        apiResponse.features[i].properties.tz = null;
+        apiResponse.features[i].properties.dmin = null;
     }
 
     res.json(apiResponse);
