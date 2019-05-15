@@ -96,7 +96,7 @@ earthquakesData();
 
 //Need to wait until earthquakes_month.geojson got loaded and saved into a file.
 setTimeout(function(){
-    return exec('geojson-pick mag time place < Source/earthquakes_month.geojson > Source/earthquakes_month_cleaned.geojson', (err, stdout, stderr) => {
+    return exec('geojson-pick mag time place < Source/earthquakes_month.geojson > Source/earthquakes_month_cleaned.geojson', (err) => {
         if (err) {
             console.log("node couldn't execute the command"+ err);
             return;

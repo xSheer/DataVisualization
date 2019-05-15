@@ -1,4 +1,8 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"mag":1.86,"time":1557908775720,"place":"30km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.57766719999998,19.4761658,-1.35]},"id":"hv70953511"}
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"mag":1,"time":1557909118000,"place":"14km NNW of Willow, Alaska"},"geometry":{"type":"Point","coordinates":[-150.1686,61.858399999999996,59.8]},"id":"ak01967ei36g"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557908998511,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21429999999998,66.29920000000001,0]},"id":"ak01967ehnsb"}
+,
+{"type":"Feature","properties":{"mag":1.86,"time":1557908775720,"place":"30km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.57766719999998,19.4761658,-1.35]},"id":"hv70953511"}
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557908426037,"place":"37km SW of Anchorage, Alaska"},"geometry":{"type":"Point","coordinates":[-150.3376,60.951699999999995,42]},"id":"ak01967efnua"}
 ,
@@ -8364,6 +8368,8 @@
 ,
 {"type":"Feature","properties":{"mag":1.1,"time":1556181220188,"place":"68km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.10979999999998,66.3009,5.8]},"id":"ak0195abrjcy"}
 ,
+{"type":"Feature","properties":{"mag":4.7,"time":1556180065010,"place":"174km S of Bristol Island, South Sandwich Islands"},"geometry":{"type":"Point","coordinates":[-26.9183,-60.5854,10]},"id":"us70003gcf"}
+,
 {"type":"Feature","properties":{"mag":1.5,"time":1556179500636,"place":"64km S of Manley Hot Springs, Alaska"},"geometry":{"type":"Point","coordinates":[-150.85260000000002,64.4267,16.2]},"id":"ak0195ablg92"}
 ,
 {"type":"Feature","properties":{"mag":0.9500000000000001,"time":1556179476640,"place":"12km WSW of Salton City, CA"},"geometry":{"type":"Point","coordinates":[-116.076,33.251666699999994,4.1499999999999995]},"id":"ci38331951"}
@@ -12894,6 +12900,4 @@
 ,
 {"type":"Feature","properties":{"mag":1.41,"time":1555319131590,"place":"18km E of Holualoa, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.77316669999996,19.636833300000003,-2.18]},"id":"hv70909041"}
 ,
-{"type":"Feature","properties":{"mag":2.71,"time":1555318448780,"place":"112km N of Vieques, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-65.7761,19.4411,60]},"id":"pr2019105004"}
-,
-{"type":"Feature","properties":{"mag":1.7700000000000002,"time":1555317204920,"place":"36km NE of Lucerne Valley, CA"},"geometry":{"type":"Point","coordinates":[-116.6426667,34.62883330000001,7.9]},"id":"ci38546888"}]}
+{"type":"Feature","properties":{"mag":2.71,"time":1555318448780,"place":"112km N of Vieques, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-65.7761,19.4411,60]},"id":"pr2019105004"}]}

@@ -465,4 +465,4 @@ MigrationBackup/
 # End of https://www.gitignore.io/api/visualstudio
 
 # Added Source directory to exclude
-Source/*.geojson
+Source/.geojson
