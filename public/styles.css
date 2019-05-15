@@ -169,6 +169,7 @@ hr {
 #glyph {
     position: relative;
     margin-left: 45%;
+    color: white;
 }
 
 .mapContainer {

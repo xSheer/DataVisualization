@@ -33,7 +33,9 @@ Categorize visualitation
 **Map projection (x & y) via:** https://en.wikipedia.org/wiki/Web_Mercator_projection <br/>
 **Used Map from:** https://studio.mapbox.com/tilesets/ <br/>
 **Brewer Palettes (coloring)** http://mkweb.bcgsc.ca/brewer/ <br/>
-**Tectonic plates** https://github.com/fraxen/tectonicplates
+**Tectonic plates** https://github.com/fraxen/tectonicplates <br/>
+**Data cleanup** https://www.npmjs.com/package/geojson-pick <br/>
+**Performance methods** https://bl.ocks.org/BjoernSchilberg/91711a76b579685bffa720d82af0a29e
 
 ## Installation
 
