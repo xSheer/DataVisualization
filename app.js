@@ -65,7 +65,6 @@ app.get('/getEarthquake', function (req, res) {
         }
         flag = true;
         var apiResponse = JSON.parse(data.toString());
-        console.log("data.toString()");
         res.json(apiResponse);
     });
 });

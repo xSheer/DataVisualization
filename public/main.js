@@ -249,7 +249,7 @@ map.on('load', function () {
         var popup = new mapboxgl.Popup({ offset: [0, -15] })
           .setLngLat(feature.geometry.coordinates)
           .setHTML('<h3>Earthquake Detail</h3>' +
-                        '<p><b>Magnitude: </b>' + feature.properties.mag + '</p>' +
+                        '<p><b>Magnitude: </b>' + feature.properties.mag.toFixed(2) + '</p>' +
                         '<p><b>Time: </b>' + new Date(feature.properties.time) + '</p>' +
                         '<p><b>Place: </b>' + feature.properties.place + '</p>' +
                         '<p><b>Long: </b>' + feature.geometry.coordinates[0].toFixed(2) + '</p>' +
