@@ -15,6 +15,7 @@ let urbanAreas = '/getUrbanAreas';
 
 let earthquakeId = null;
 let state = { panelOpen: true };
+let popup;
 
 map.on('load', function () {
 
@@ -98,6 +99,7 @@ map.on('load', function () {
             // Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
             // Begin color ramp at 0-stop with a 0-transparancy color
             // to create a blur-like effect.
+            // Try ['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d']
             "heatmap-color": [
                 "interpolate",
                 ["linear"],
@@ -188,8 +190,20 @@ map.on('load', function () {
                 "interpolate",
                 ["linear"],
                 ["zoom"],
-                7,["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
-                16, ["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
+                7, [
+                    "interpolate",
+                    ["linear"],
+                    ["get", "mag"],
+                    1, 1,
+                    6, 4
+                ],
+                16, [
+                    "interpolate",
+                    ["linear"],
+                    ["get", "mag"],
+                    1, 5,
+                    6, 50
+                ]
             ],
             "circle-color": "rgba(178,24,43,.7)",
             "circle-opacity": ["case",
@@ -223,7 +237,7 @@ map.on('load', function () {
         });
     });
 
-    map.on('click', function(e) {
+    map.on('mouseenter', 'earthquakes-point', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
           layers: ['earthquakes-point']
         });
@@ -234,7 +248,7 @@ map.on('load', function () {
 
         var feature = features[0];
       
-        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+       popup = new mapboxgl.Popup({ offset: [0, -15] })
           .setLngLat(feature.geometry.coordinates)
           .setHTML('<h3>Earthquake Detail</h3>' +
                         '<p><b>Magnitude: </b>' + feature.properties.mag.toFixed(2) + '</p>' +
@@ -245,6 +259,11 @@ map.on('load', function () {
                     )
           .setLngLat(feature.geometry.coordinates)
           .addTo(map);
+    });
+
+    map.on('mouseleave', 'earthquakes-point', function() {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
     });
 
     document.getElementById('slider').addEventListener('input', function(e) {

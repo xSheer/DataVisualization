@@ -1,4 +1,6 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"mag":1.2,"time":1557950900676,"place":"10km E of Whittier, Alaska"},"geometry":{"type":"Point","coordinates":[-148.49630000000002,60.755700000000004,25.7]},"id":"ak01967lia2p"}
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"mag":1.51,"time":1557951891800,"place":"28km NE of San Martin, CA"},"geometry":{"type":"Point","coordinates":[-121.35616300000001,37.2418327,4.64]},"id":"nc73182451"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557950900676,"place":"10km E of Whittier, Alaska"},"geometry":{"type":"Point","coordinates":[-148.49630000000002,60.755700000000004,25.7]},"id":"ak01967lia2p"}
 ,
 {"type":"Feature","properties":{"mag":1.1400000000000001,"time":1557950454590,"place":"7km NW of La Mesa, CA"},"geometry":{"type":"Point","coordinates":[-117.06833329999999,32.8181667,3.01]},"id":"ci38595784"}
 ,
@@ -43,6 +45,8 @@
 {"type":"Feature","properties":{"mag":1.96,"time":1557940168240,"place":"2km NNE of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.74533079999999,38.79183200000001,0.33000000000000007]},"id":"nc73182421"}
 ,
 {"type":"Feature","properties":{"mag":2.23,"time":1557939665150,"place":"15km SE of Lake Pillsbury, CA"},"geometry":{"type":"Point","coordinates":[-122.8195038,39.329498300000004,0.79]},"id":"nc73182055"}
+,
+{"type":"Feature","properties":{"mag":1.96,"time":1557938401760,"place":"15km SSE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.42116670000001,19.078333299999997,42.839999999999996]},"id":"hv70954011"}
 ,
 {"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557937876340,"place":"24km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.96300000000001,37.220200000000006,0.9]},"id":"nn00684927"}
 ,
