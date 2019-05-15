@@ -188,22 +188,10 @@ map.on('load', function () {
                 "interpolate",
                 ["linear"],
                 ["zoom"],
-                7, [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "mag"],
-                    1, 1,
-                    6, 4
-                ],
-                16, [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "mag"],
-                    1, 5,
-                    6, 50
-                ]
+                7,["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
+                16, ["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
             ],
-            "circle-color": "rgb(178,24,43)",
+            "circle-color": "rgba(178,24,43,.7)",
             "circle-opacity": ["case",
                 ["boolean", ["feature-state", "hover"], false],
                 1, 0
