@@ -17,7 +17,7 @@ let ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 let USGS_EARTHQUAKES = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson";
 let URBAN_AREAS = "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson";
 
-let file = fs.createWriteStream('./Source/earthquakes_month.geojson');
+// let file = fs.createWriteStream('./Source/earthquakes_month.geojson');
 
 var app = express();
 
@@ -58,9 +58,27 @@ app.get('/getUrbanAreas', function (req, res) {
 });
 
 app.get('/getEarthquake', function (req, res) {
-    let __dirname = "./Source";
-    let flag = true;
-    if(flag){
+    setTimeout(earthquakesData, 3600000);
+    fs.readFile('./Source/earthquakes_month_cleaned.geojson', function (err, data) {
+        if (err) {
+          throw err; 
+        }
+        flag = true;
+        var apiResponse = JSON.parse(data.toString());
+        console.log("data.toString()");
+        res.json(apiResponse);
+    });
+});
+
+app.get('/getTectonicPlate', function (req, res) {
+    res.json(tectonicPlate);
+});
+
+app.listen(app.get('port'), function () {
+    console.log("App listening on port " + app.get('port'));
+});
+
+let earthquakesData = function(){
     request(USGS_EARTHQUAKES, function (err, resp, body) {
         if (err) {
             console.log(err);
@@ -73,45 +91,16 @@ app.get('/getEarthquake', function (req, res) {
         fs.writeFile("./Source/earthquakes_month.geojson", body, (err) => {
             if (err) throw err;
         });
-        file.end();
-
-        //setting unnecessary data to null
-        for(var i = 0; i < apiResponse.features.length; i++){
-            apiResponse.features[i].properties.url = null;
-            apiResponse.features[i].properties.detail = null;
-        }
-
-        flag = false;
-        res.json(apiResponse);
-        });
-    } else {
-        fs.readFile(__dirname+'/earthquakes_month.json', function (err, data) {
-            if (err) {
-              throw err; 
-            }
-            var apiResponse = JSON.parse(data.toString());
-            console.log(data.toString());
-            res.json(apiResponse);
-        });
-    }
-});
-
-app.get('/getTectonicPlate', function (req, res) {
-    res.json(tectonicPlate);
-});
-
-app.listen(app.get('port'), function () {
-    console.log("App listening on port " + app.get('port'));
-});
+    });
+};
+earthquakesData();
 
 //Need to wait until earthquakes_month.geojson got loaded and saved into a file.
 setTimeout(function(){
-    return exec('geojson-pick code < Source/earthquakes_month.geojson > Source/earthquakes_month_cleaned.geojson', (err, stdout, stderr) => {
+    return exec('geojson-pick mag time place < Source/earthquakes_month.geojson > Source/earthquakes_month_cleaned.geojson', (err, stdout, stderr) => {
         if (err) {
             console.log("node couldn't execute the command"+ err);
             return;
         }
-        console.log('stdout:', stdout);
-        console.log('stderr:', stderr);
     });
-}, 10000);
+}, 15000);
