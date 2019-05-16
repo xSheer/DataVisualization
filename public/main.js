@@ -386,6 +386,14 @@ function panelSelect(e){
   }
 }
 
+document.getElementById("help").addEventListener("click", function(){
+    document.getElementById("helpMsg").style.display = "block";
+});
+
+document.getElementById("popupCloseButton").addEventListener("click", function(){
+    document.getElementById("helpMsg").style.display = "none";
+});
+
 
 //http://www.naturalearthdata.com/
 

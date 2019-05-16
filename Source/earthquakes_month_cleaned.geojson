@@ -1,20 +1,264 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"mag":1.9,"time":1557953909216,"place":"72km WNW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-151.3726,62.6138,55.2]},"id":"ak01967lt0jo"}
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"mag":1.2,"time":1558007582351,"place":"16km SE of Cohoe, Alaska"},"geometry":{"type":"Point","coordinates":[-151.1208,60.256,39.4]},"id":"ak019693ybx0"}
+,
+{"type":"Feature","properties":{"mag":1.5,"time":1558007569769,"place":"112km NNW of Arctic Village, Alaska"},"geometry":{"type":"Point","coordinates":[-146.407,69.0874,0]},"id":"ak019693y7vm"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1558006427299,"place":"12km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.0292,61.416199999999996,36.1]},"id":"ak019693u53w"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1558004387140,"place":"70km ESE of Sutton-Alpine, Alaska"},"geometry":{"type":"Point","coordinates":[-147.5505,61.6482,21.2]},"id":"ak019693ea2z"}
+,
+{"type":"Feature","properties":{"mag":1.32,"time":1558003733510,"place":"5km SSW of Idyllwild, CA"},"geometry":{"type":"Point","coordinates":[-116.72916670000001,33.69850000000001,16.79]},"id":"ci38596480"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1558003684721,"place":"77km NNE of Sutton-Alpine, Alaska"},"geometry":{"type":"Point","coordinates":[-148.3948,62.4537,17.9]},"id":"ak019693bu1e"}
+,
+{"type":"Feature","properties":{"mag":1.5,"time":1558003100239,"place":"51km NNW of Yakutat, Alaska"},"geometry":{"type":"Point","coordinates":[-140.13569999999999,59.959599999999995,9.9]},"id":"ak0196939pzb"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1558001869020,"place":"7km NW of Rancho Cucamonga, CA"},"geometry":{"type":"Point","coordinates":[-117.63383329999999,34.167500000000004,10.01]},"id":"ci38596472"}
+,
+{"type":"Feature","properties":{"mag":5,"time":1558001837197,"place":"25km NW of Taron, Papua New Guinea"},"geometry":{"type":"Point","coordinates":[152.8639,-4.315099999999999,35]},"id":"usd000a1im"}
+,
+{"type":"Feature","properties":{"mag":2.4499999999999997,"time":1558001573980,"place":"6km SW of Loudon, Tennessee"},"geometry":{"type":"Point","coordinates":[-84.37699889999999,35.688999200000005,19.89]},"id":"se60271691"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1558001364230,"place":"9km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.0877,37.3045,6.7]},"id":"nn00685007"}
+,
+{"type":"Feature","properties":{"mag":2,"time":1557999539091,"place":"71km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21949999999995,66.2792,1.2]},"id":"ak019692oddh"}
+,
+{"type":"Feature","properties":{"mag":2,"time":1557999234585,"place":"84km ESE of Old Iliamna, Alaska"},"geometry":{"type":"Point","coordinates":[-153.4739,59.541199999999996,121.3]},"id":"ak019692naet"}
+,
+{"type":"Feature","properties":{"mag":1.82,"time":1557998792770,"place":"18km SSW of Guanica, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.95660000000001,17.814300000000003,19]},"id":"pr2019136008"}
+,
+{"type":"Feature","properties":{"mag":1.33,"time":1557996733490,"place":"10km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.84116360000003,38.840168,1.7200000000000002]},"id":"nc73182636"}
+,
+{"type":"Feature","properties":{"mag":1.22,"time":1557994672960,"place":"12km E of Mammoth Lakes, CA"},"geometry":{"type":"Point","coordinates":[-118.84833529999999,37.6194992,1.23]},"id":"nc73182626"}
+,
+{"type":"Feature","properties":{"mag":2.03,"time":1557993766090,"place":"20km S of New Idria, CA"},"geometry":{"type":"Point","coordinates":[-120.6876678,36.240165700000006,11.139999999999999]},"id":"nc73182621"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557993102154,"place":"26km N of Nikiski, Alaska"},"geometry":{"type":"Point","coordinates":[-151.23319999999998,60.9288,66.7]},"id":"ak019691k95z"}
+,
+{"type":"Feature","properties":{"mag":2.82,"time":1557993013540,"place":"59km N of Brenas, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.38579999999999,18.9998,49]},"id":"pr2019136004"}
+,
+{"type":"Feature","properties":{"mag":1.23,"time":1557992826580,"place":"8km E of Mammoth Lakes, CA"},"geometry":{"type":"Point","coordinates":[-118.88333129999998,37.638000500000004,5.68]},"id":"nc73182596"}
+,
+{"type":"Feature","properties":{"mag":4.4,"time":1557992621570,"place":"69km NW of San Antonio de los Cobres, Argentina"},"geometry":{"type":"Point","coordinates":[-66.8129,-23.787999999999997,221.9]},"id":"usd000a1i1"}
+,
+{"type":"Feature","properties":{"mag":2.79,"time":1557992204670,"place":"44km NE of Road Town, British Virgin Islands"},"geometry":{"type":"Point","coordinates":[-64.34660000000001,18.729499999999998,10]},"id":"pr2019136007"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557992082266,"place":"70km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.15730000000002,66.2873,8.5]},"id":"ak019691gm00"}
+,
+{"type":"Feature","properties":{"mag":1.56,"time":1557991669150,"place":"24km W of Westmorland, CA"},"geometry":{"type":"Point","coordinates":[-115.87433329999999,33.0585,7.14]},"id":"ci38596408"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557991362826,"place":"15km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.085,61.3926,39.3]},"id":"ak019691e1ga"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557990713626,"place":"61km ENE of Cape Yakataga, Alaska"},"geometry":{"type":"Point","coordinates":[-141.3734,60.235800000000005,7.2]},"id":"ak019691bpet"}
+,
+{"type":"Feature","properties":{"mag":4.4,"time":1557990660950,"place":"29km SW of Pijijiapan, Mexico"},"geometry":{"type":"Point","coordinates":[-93.44590000000001,15.541799999999999,79.75]},"id":"usd000a1hz"}
+,
+{"type":"Feature","properties":{"mag":2.3,"time":1557989828384,"place":"43km SW of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-153.21099999999998,60.1747,128]},"id":"ak019691015b"}
+,
+{"type":"Feature","properties":{"mag":1.03,"time":1557989744580,"place":"10km E of Borrego Springs, CA"},"geometry":{"type":"Point","coordinates":[-116.26650000000001,33.251666699999994,10.7]},"id":"ci38596400"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557989586484,"place":"28km SSE of Cohoe, Alaska"},"geometry":{"type":"Point","coordinates":[-151.10479999999998,60.129400000000004,148.8]},"id":"ak019690z2cf"}
+,
+{"type":"Feature","properties":{"mag":4.9,"time":1557989519935,"place":"124km ESE of Mohean, India"},"geometry":{"type":"Point","coordinates":[94.3029,7.416200000000001,10]},"id":"usd000a1hw"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557988905107,"place":"86km SW of Manley Hot Springs, Alaska"},"geometry":{"type":"Point","coordinates":[-151.76309999999998,64.3894,9.6]},"id":"ak019690won7"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557988554399,"place":"84km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1969,66.16369999999999,0.1]},"id":"ak019690vf2h"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557988328670,"place":"15km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.0382,37.26530000000001,1.7000000000000002]},"id":"nn00685005"}
+,
+{"type":"Feature","properties":{"mag":2.4,"time":1557987759725,"place":"29km NE of Chignik Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-158.45770000000002,56.4554,94.8]},"id":"ak019690slmt"}
+,
+{"type":"Feature","properties":{"mag":1.9,"time":1557987250568,"place":"109km SW of Larsen Bay, Alaska"},"geometry":{"type":"Point","coordinates":[-155.33,56.8821,35.4]},"id":"ak019690qtmo"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557986723252,"place":"46km NE of Healy, Alaska"},"geometry":{"type":"Point","coordinates":[-148.232,64.12589999999999,2.5]},"id":"ak019690ox5x"}
+,
+{"type":"Feature","properties":{"mag":1,"time":1557986127957,"place":"137km NE of Cape Yakataga, Alaska"},"geometry":{"type":"Point","coordinates":[-140.9464,61.0634,17.7]},"id":"ak019690e7q3"}
+,
+{"type":"Feature","properties":{"mag":2.8099999999999996,"time":1557985706940,"place":"162km NNW of Road Town, British Virgin Islands"},"geometry":{"type":"Point","coordinates":[-65.0856,19.815,53]},"id":"pr2019136006"}
+,
+{"type":"Feature","properties":{"mag":2.36,"time":1557985599310,"place":"14km SE of Volcano, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.14317319999995,19.3400002,3.27]},"id":"hv70954961"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1557985342712,"place":"76km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1966,66.2356,0]},"id":"ak019690bezi"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557984429924,"place":"21km NE of Eielson Air Force Base, Alaska"},"geometry":{"type":"Point","coordinates":[-146.7313,64.7997,14]},"id":"ak01969086er"}
+,
+{"type":"Feature","properties":{"mag":1.02,"time":1557984053420,"place":"3km NE of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.73666380000002,38.79550170000001,1.08]},"id":"nc73182551"}
+,
+{"type":"Feature","properties":{"mag":2.8899999999999997,"time":1557983986640,"place":"18km NNW of Otra Banda, Dominican Republic"},"geometry":{"type":"Point","coordinates":[-68.7088,18.812800000000003,142]},"id":"pr2019136005"}
+,
+{"type":"Feature","properties":{"mag":1.02,"time":1557983870590,"place":"4km ESE of Loma Linda, CA"},"geometry":{"type":"Point","coordinates":[-117.222,34.04166669999999,13.7]},"id":"ci38596384"}
+,
+{"type":"Feature","properties":{"mag":1.3800000000000001,"time":1557983770180,"place":"11km WSW of Puerto Real, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-67.281,18.031000000000002,20]},"id":"pr2019136003"}
+,
+{"type":"Feature","properties":{"mag":1.5,"time":1557983733510,"place":"27km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.90780000000001,37.22530000000001,0.1]},"id":"nn00685000"}
+,
+{"type":"Feature","properties":{"mag":1.6800000000000002,"time":1557983356860,"place":"11km N of Redwood Valley, CA"},"geometry":{"type":"Point","coordinates":[-123.20266720000001,39.365165700000006,7.24]},"id":"nc73182546"}
+,
+{"type":"Feature","properties":{"mag":1.57,"time":1557982809250,"place":"4km S of Idyllwild, CA"},"geometry":{"type":"Point","coordinates":[-116.722,33.70283330000001,16.74]},"id":"ci38596368"}
+,
+{"type":"Feature","properties":{"mag":1.8,"time":1557982718122,"place":"75km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1968,66.2427,0]},"id":"ak01968ztg19"}
+,
+{"type":"Feature","properties":{"mag":2.2,"time":1557982226862,"place":"75km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1977,66.2403,0]},"id":"ak01968zrpfa"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557982163508,"place":"34km N of Larsen Bay, Alaska"},"geometry":{"type":"Point","coordinates":[-153.8739,57.84759999999999,52.1]},"id":"ak01968zrhgy"}
+,
+{"type":"Feature","properties":{"mag":1.62,"time":1557981653760,"place":"9km NNE of Alum Rock, CA"},"geometry":{"type":"Point","coordinates":[-121.77400209999999,37.431667299999994,9.27]},"id":"nc73182541"}
+,
+{"type":"Feature","properties":{"mag":1.37,"time":1557981223600,"place":"1km ESE of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.74617,38.772167200000005,0.15000000000000002]},"id":"nc73182536"}
+,
+{"type":"Feature","properties":{"mag":2.9,"time":1557980853681,"place":"47km SW of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-153.4159,60.214,15.2]},"id":"ak01968zms73"}
+,
+{"type":"Feature","properties":{"mag":2.4,"time":1557980848880,"place":"59km ENE of Old Iliamna, Alaska"},"geometry":{"type":"Point","coordinates":[-153.87800000000001,59.869,167]},"id":"ak01968zms74"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1557980749680,"place":"56km NNE of Warm Springs, Nevada"},"geometry":{"type":"Point","coordinates":[-116.15669999999999,38.6712,12.1]},"id":"nn00684999"}
+,
+{"type":"Feature","properties":{"mag":1.84,"time":1557980342050,"place":"27km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.6078339,19.427,0.17]},"id":"hv70954866"}
+,
+{"type":"Feature","properties":{"mag":3.19,"time":1557980298640,"place":"147km NNE of Vieques, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-65.147,19.896800000000002,40]},"id":"pr2019136001"}
+,
+{"type":"Feature","properties":{"mag":2.7,"time":1557980187883,"place":"8km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.0412,61.4552,22.1]},"id":"ak01968zkf86"}
+,
+{"type":"Feature","properties":{"mag":4.8,"time":1557979496283,"place":"135km E of Macas, Ecuador"},"geometry":{"type":"Point","coordinates":[-76.90190000000001,-2.3710999999999998,137.41]},"id":"us70003lz2"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557979404566,"place":"50km E of Whittier, Alaska"},"geometry":{"type":"Point","coordinates":[-147.7763,60.703100000000006,15.9]},"id":"ak01968zhmmg"}
+,
+{"type":"Feature","properties":{"mag":1.5,"time":1557979244950,"place":"24km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.96320000000001,37.210300000000004,10.1]},"id":"nn00684996"}
+,
+{"type":"Feature","properties":{"mag":1.09,"time":1557978610040,"place":"6km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8069992,38.81766509999999,2.34]},"id":"nc73182531"}
+,
+{"type":"Feature","properties":{"mag":2,"time":1557978604694,"place":"14km NNW of Meadow Lakes, Alaska"},"geometry":{"type":"Point","coordinates":[-149.6693,61.7468,45.4]},"id":"ak01968z6858"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1557977735448,"place":"144km NNW of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-154.10299999999998,61.59930000000001,6.4]},"id":"ak01968z32rc"}
+,
+{"type":"Feature","properties":{"mag":1.51,"time":1557977013360,"place":"3km SSW of Brawley, CA"},"geometry":{"type":"Point","coordinates":[-115.54750000000001,32.952666699999995,10.48]},"id":"ci38596296"}
+,
+{"type":"Feature","properties":{"mag":1.22,"time":1557976241810,"place":"4km WNW of Cobb, CA"},"geometry":{"type":"Point","coordinates":[-122.7621689,38.841331499999995,-0.25]},"id":"nc73182521"}
+,
+{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557975296335,"place":"54km SW of Cantwell, Alaska"},"geometry":{"type":"Point","coordinates":[-149.8016,63.094300000000004,170.1]},"id":"ak01968ylrdt"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1557975138811,"place":"60km WNW of Valdez, Alaska"},"geometry":{"type":"Point","coordinates":[-147.45810000000003,61.2416,0]},"id":"ak01968yl921"}
+,
+{"type":"Feature","properties":{"mag":1.8,"time":1557975067486,"place":"61km SSW of Kaktovik, Alaska"},"geometry":{"type":"Point","coordinates":[-144.27419999999998,69.62979999999999,0]},"id":"ak01968yl0gs"}
+,
+{"type":"Feature","properties":{"mag":0.98,"time":1557974947330,"place":"14km NNE of Thousand Palms, CA"},"geometry":{"type":"Point","coordinates":[-116.31616670000001,33.927,8.370000000000001]},"id":"ci38596264"}
+,
+{"type":"Feature","properties":{"mag":2.19,"time":1557974867730,"place":"4km SSW of Brawley, CA"},"geometry":{"type":"Point","coordinates":[-115.546,32.947333300000004,7.92]},"id":"ci38596256"}
+,
+{"type":"Feature","properties":{"mag":2,"time":1557973693626,"place":"68km WNW of Tanana, Alaska"},"geometry":{"type":"Point","coordinates":[-153.4441,65.3978,0]},"id":"ak01968yg3gu"}
+,
+{"type":"Feature","properties":{"mag":1.9,"time":1557972546143,"place":"84km E of Old Iliamna, Alaska"},"geometry":{"type":"Point","coordinates":[-153.4151,59.779500000000006,128.8]},"id":"ak01968yc0at"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557972136135,"place":"27km WSW of Nikiski, Alaska"},"geometry":{"type":"Point","coordinates":[-151.7591,60.6152,75.5]},"id":"ak01968yaj2b"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557971790819,"place":"17km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.086,61.38099999999999,34.6]},"id":"ak01968y0p8p"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557971331606,"place":"72km NW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-151.0237,62.8207,100.9]},"id":"ak01968xz148"}
+,
+{"type":"Feature","properties":{"mag":1.02,"time":1557971290540,"place":"3km WNW of Norco, CA"},"geometry":{"type":"Point","coordinates":[-117.57766670000001,33.937,1.5]},"id":"ci38596216"}
+,
+{"type":"Feature","properties":{"mag":4.2,"time":1557971269356,"place":"71km SW of Ocos, Guatemala"},"geometry":{"type":"Point","coordinates":[-92.684,14.0715,35]},"id":"us70003lyh"}
+,
+{"type":"Feature","properties":{"mag":4.4,"time":1557970449989,"place":"58km WNW of Santa Cruz, Chile"},"geometry":{"type":"Point","coordinates":[-71.98320000000001,-34.499,10]},"id":"us70003ly9"}
+,
+{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557970027140,"place":"27km ESE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.90050000000001,37.23250000000001,3]},"id":"nn00684969"}
+,
+{"type":"Feature","properties":{"mag":5.7,"time":1557969839424,"place":"95km SSW of Taron, Papua New Guinea"},"geometry":{"type":"Point","coordinates":[152.6189,-5.2257,25.330000000000002]},"id":"us70003ly5"}
+,
+{"type":"Feature","properties":{"mag":4.3,"time":1557969241240,"place":"45km SSW of La Libertad, El Salvador"},"geometry":{"type":"Point","coordinates":[-89.5151,13.1226,58.52]},"id":"us70003lye"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557968903219,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.3695,66.316,0]},"id":"ak01968xqe9y"}
+,
+{"type":"Feature","properties":{"mag":4.3,"time":1557968835155,"place":"56km SSW of Sarangani, Philippines"},"geometry":{"type":"Point","coordinates":[125.3498,4.907,179.54]},"id":"us70003lxx"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557968580872,"place":"19km WSW of Y, Alaska"},"geometry":{"type":"Point","coordinates":[-150.16740000000001,62.068400000000004,19.9]},"id":"ak01968xp9zb"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557968182730,"place":"16km SSE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.06920000000001,37.242000000000004,0.1]},"id":"nn00684962"}
+,
+{"type":"Feature","properties":{"mag":1.5,"time":1557967345584,"place":"7km SSE of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.90449999999998,61.4612,33.4]},"id":"ak01968xc97i"}
+,
+{"type":"Feature","properties":{"mag":2.4,"time":1557967018418,"place":"58km W of Currant, Nevada"},"geometry":{"type":"Point","coordinates":[-116.1414,38.7712,10.3]},"id":"nn00684954"}
+,
+{"type":"Feature","properties":{"mag":5.1,"time":1557966734046,"place":"21km SE of Calingasta, Argentina"},"geometry":{"type":"Point","coordinates":[-69.2323,-31.455299999999998,109.26]},"id":"us70003lxa"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557966459870,"place":"5km SW of La Parguera, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-67.086,17.942999999999998,20]},"id":"pr2019136000"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557966454779,"place":"115km W of Cantwell, Alaska"},"geometry":{"type":"Point","coordinates":[-151.2463,63.269600000000004,0]},"id":"ak01968x926d"}
+,
+{"type":"Feature","properties":{"mag":1.2,"time":1557965226503,"place":"70km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.25469999999999,66.2904,4.5]},"id":"ak01968x4poa"}
+,
+{"type":"Feature","properties":{"mag":1.9,"time":1557965189527,"place":"57km W of Anchor Point, Alaska"},"geometry":{"type":"Point","coordinates":[-152.85160000000002,59.828,92.9]},"id":"ak01968x4jo4"}
+,
+{"type":"Feature","properties":{"mag":4.5,"time":1557964959615,"place":"129km NNE of Calama, Chile"},"geometry":{"type":"Point","coordinates":[-68.2596,-21.476399999999998,100.11999999999999]},"id":"us70003lx4"}
+,
+{"type":"Feature","properties":{"mag":1.36,"time":1557964752310,"place":"3km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.7848358,38.79650120000001,3.05]},"id":"nc73182496"}
+,
+{"type":"Feature","properties":{"mag":2.4,"time":1557963620413,"place":"43km N of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-149.9642,62.7124,69.5]},"id":"ak01967nhfr7"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557963419439,"place":"5km S of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.9693,61.4706,38.7]},"id":"ak01967ngnxz"}
+,
+{"type":"Feature","properties":{"mag":1.96,"time":1557963215080,"place":"6km NNW of Boron, CA"},"geometry":{"type":"Point","coordinates":[-117.66799999999999,35.0468333,-0.79]},"id":"ci38596112"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557961854071,"place":"19km NE of Badger, Alaska"},"geometry":{"type":"Point","coordinates":[-147.2788,64.9385,0]},"id":"ak01967nb2q3"}
+,
+{"type":"Feature","properties":{"mag":2.18,"time":1557960453540,"place":"13km SE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.38299560000002,19.1240005,44.64]},"id":"hv70954491"}
+,
+{"type":"Feature","properties":{"mag":1.52,"time":1557960315910,"place":"15km NE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.85499999999999,36.1545,2.64]},"id":"ci38596016"}
+,
+{"type":"Feature","properties":{"mag":2.7,"time":1557960294640,"place":"14km SSE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.40432740000003,19.091833100000002,38.08]},"id":"hv70954486"}
+,
+{"type":"Feature","properties":{"mag":2.4899999999999998,"time":1557960271670,"place":"17km SSE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.41000369999998,19.064167,38.32]},"id":"hv70954481"}
+,
+{"type":"Feature","properties":{"mag":2.32,"time":1557960151440,"place":"14km SSE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.4236603,19.0844994,42.21]},"id":"hv70954476"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557960118600,"place":"52km N of Amatignak Island, Alaska"},"geometry":{"type":"Point","coordinates":[-179.0248333,51.733000000000004,11.19]},"id":"av61998676"}
+,
+{"type":"Feature","properties":{"mag":2.36,"time":1557960054100,"place":"15km SSE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.44633480000002,19.067667,45.93]},"id":"hv70954471"}
+,
+{"type":"Feature","properties":{"mag":1.6,"time":1557959684479,"place":"50km W of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.89810000000003,61.536500000000004,54.1]},"id":"ak01967murq2"}
+,
+{"type":"Feature","properties":{"mag":4.1,"time":1557959165600,"place":"18km SW of Kardamas, Greece"},"geometry":{"type":"Point","coordinates":[21.1642,37.67530000000001,24.69]},"id":"us70003lvi"}
+,
+{"type":"Feature","properties":{"mag":1.4,"time":1557958986420,"place":"20km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.9752,37.252500000000005,1.7000000000000002]},"id":"nn00684950"}
+,
+{"type":"Feature","properties":{"mag":2,"time":1557958492398,"place":"32km S of Valdez, Alaska"},"geometry":{"type":"Point","coordinates":[-146.44349999999997,60.84459999999999,17.1]},"id":"ak01967mqi0h"}
+,
+{"type":"Feature","properties":{"mag":1.83,"time":1557958381550,"place":"22km SSW of False Pass, Alaska"},"geometry":{"type":"Point","coordinates":[-163.4955,54.6578333,4.88]},"id":"av61998661"}
+,
+{"type":"Feature","properties":{"mag":1.8,"time":1557957191900,"place":"27km NNW of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.59733580000002,19.431333499999997,0.45]},"id":"hv70954381"}
+,
+{"type":"Feature","properties":{"mag":1.3,"time":1557957144156,"place":"75km ESE of Cape Yakataga, Alaska"},"geometry":{"type":"Point","coordinates":[-141.1487,59.8649,11.4]},"id":"ak01967md5go"}
+,
+{"type":"Feature","properties":{"mag":2.7,"time":1557957049611,"place":"15km NNE of Hawthorne, Nevada"},"geometry":{"type":"Point","coordinates":[-118.55120000000001,38.6475,6.1]},"id":"nn00684946"}
+,
+{"type":"Feature","properties":{"mag":1.1800000000000002,"time":1557956604440,"place":"23km SSW of False Pass, Alaska"},"geometry":{"type":"Point","coordinates":[-163.5538333,54.6531667,3.23]},"id":"av61998631"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557956345303,"place":"49km WSW of Anchor Point, Alaska"},"geometry":{"type":"Point","coordinates":[-152.57479999999998,59.5364,105.3]},"id":"ak01967ma7f2"}
+,
+{"type":"Feature","properties":{"mag":1.34,"time":1557955862250,"place":"5km NE of Rancho San Diego, CA"},"geometry":{"type":"Point","coordinates":[-116.88883329999999,32.774833300000004,-0.27]},"id":"ci38595912"}
+,
+{"type":"Feature","properties":{"mag":2.3,"time":1557955645311,"place":"23km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.9733,37.22270000000001,0]},"id":"nn00684940"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557955508760,"place":"15km SSE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.068,37.2472,0.1]},"id":"nn00684938"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557955191982,"place":"149km WNW of Ruby, Alaska"},"geometry":{"type":"Point","coordinates":[-158.4058,65.2664,1.8]},"id":"ak01967m64zi"}
+,
+{"type":"Feature","properties":{"mag":2.4099999999999997,"time":1557954445680,"place":"15km SSW of Princeton, Canada"},"geometry":{"type":"Point","coordinates":[-120.59366666667002,49.3315,-0.23]},"id":"uw61522982"}
+,
+{"type":"Feature","properties":{"mag":1.9,"time":1557953909216,"place":"72km WNW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-151.3726,62.6138,55.2]},"id":"ak01967lt0jo"}
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557953816544,"place":"150km WNW of Ruby, Alaska"},"geometry":{"type":"Point","coordinates":[-158.4193,65.2683,2.6]},"id":"ak01967lsn86"}
 ,
 {"type":"Feature","properties":{"mag":2.3,"time":1557953808746,"place":"65km S of King Salmon, Alaska"},"geometry":{"type":"Point","coordinates":[-156.5413,58.100300000000004,183.2]},"id":"ak01967lsmwn"}
 ,
-{"type":"Feature","properties":{"mag":1.06,"time":1557953677900,"place":"2km SE of Home Gardens, CA"},"geometry":{"type":"Point","coordinates":[-117.50366670000001,33.863,0.8600000000000001]},"id":"ci38595864"}
-,
 {"type":"Feature","properties":{"mag":4.8,"time":1557952417450,"place":"9km ESE of Xiluodu, China"},"geometry":{"type":"Point","coordinates":[103.6621,28.1554,37.67]},"id":"usd0009i8f"}
-,
-{"type":"Feature","properties":{"mag":1.51,"time":1557951891800,"place":"28km NE of San Martin, CA"},"geometry":{"type":"Point","coordinates":[-121.35616300000001,37.2418327,4.64]},"id":"nc73182451"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557950900676,"place":"10km E of Whittier, Alaska"},"geometry":{"type":"Point","coordinates":[-148.49630000000002,60.755700000000004,25.7]},"id":"ak01967lia2p"}
 ,
-{"type":"Feature","properties":{"mag":1.1400000000000001,"time":1557950454590,"place":"7km NW of La Mesa, CA"},"geometry":{"type":"Point","coordinates":[-117.06833329999999,32.8181667,3.01]},"id":"ci38595784"}
+{"type":"Feature","properties":{"mag":1.1600000000000001,"time":1557950454490,"place":"7km W of Santee, CA"},"geometry":{"type":"Point","coordinates":[-117.0505,32.8308333,-0.12000000000000001]},"id":"ci38595784"}
 ,
-{"type":"Feature","properties":{"mag":1.7100000000000002,"time":1557949058450,"place":"2km N of Huntington Park, CA"},"geometry":{"type":"Point","coordinates":[-118.22283329999999,33.994666699999996,12.91]},"id":"ci38595752"}
+{"type":"Feature","properties":{"mag":1.87,"time":1557949058240,"place":"1km N of Huntington Park, CA"},"geometry":{"type":"Point","coordinates":[-118.22366670000001,33.991666699999996,14.12]},"id":"ci38595752"}
+,
+{"type":"Feature","properties":{"mag":1.83,"time":1557948986480,"place":"9km NE of Caldwell, Kansas"},"geometry":{"type":"Point","coordinates":[-97.52683329999999,37.089666699999995,4.659999999999999]},"id":"ismpkansas70259293"}
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557948725773,"place":"66km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1664,66.32269999999998,1.7000000000000002]},"id":"ak01967l1yiu"}
 ,
@@ -38,9 +282,9 @@
 ,
 {"type":"Feature","properties":{"mag":1.8900000000000001,"time":1557943449520,"place":"15km NNW of Boardman, Oregon"},"geometry":{"type":"Point","coordinates":[-119.771,45.97266666666699,-0.53]},"id":"uw61522947"}
 ,
-{"type":"Feature","properties":{"mag":1.3,"time":1557942904330,"place":"48km ESE of Bridgeport, California"},"geometry":{"type":"Point","coordinates":[-118.7323,38.068200000000004,0.2]},"id":"nn00684930"}
+{"type":"Feature","properties":{"mag":1.3,"time":1557942905221,"place":"48km ESE of Bridgeport, California"},"geometry":{"type":"Point","coordinates":[-118.7267,38.066500000000005,7.9]},"id":"nn00684930"}
 ,
-{"type":"Feature","properties":{"mag":1.22,"time":1557942633700,"place":"10km NW of Grapevine, CA"},"geometry":{"type":"Point","coordinates":[-119.0003333,35.005833300000006,18.86]},"id":"ci38595616"}
+{"type":"Feature","properties":{"mag":1.21,"time":1557942633570,"place":"9km NW of Grapevine, CA"},"geometry":{"type":"Point","coordinates":[-118.99666670000002,35.0066667,18.84]},"id":"ci38595616"}
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557942552938,"place":"108km ENE of Circle, Alaska"},"geometry":{"type":"Point","coordinates":[-141.82720000000003,66.1625,0]},"id":"ak01967jyr0d"}
 ,
@@ -56,11 +300,13 @@
 ,
 {"type":"Feature","properties":{"mag":1.96,"time":1557940168240,"place":"2km NNE of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.74533079999999,38.79183200000001,0.33000000000000007]},"id":"nc73182421"}
 ,
-{"type":"Feature","properties":{"mag":2.23,"time":1557939665150,"place":"15km SE of Lake Pillsbury, CA"},"geometry":{"type":"Point","coordinates":[-122.8195038,39.329498300000004,0.79]},"id":"nc73182055"}
+{"type":"Feature","properties":{"mag":1.95,"time":1557939664960,"place":"16km SE of Lake Pillsbury, CA"},"geometry":{"type":"Point","coordinates":[-122.8085,39.3155,5.95]},"id":"nc73182055"}
+,
+{"type":"Feature","properties":{"mag":4.8,"time":1557939226198,"place":"161km NNE of `Izbat al Burj, Egypt"},"geometry":{"type":"Point","coordinates":[32.63210000000001,32.8032,10]},"id":"us70003lna"}
 ,
 {"type":"Feature","properties":{"mag":1.96,"time":1557938401760,"place":"15km SSE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.42116670000001,19.078333299999997,42.839999999999996]},"id":"hv70954011"}
 ,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557937876340,"place":"24km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.96300000000001,37.220200000000006,0.9]},"id":"nn00684927"}
+{"type":"Feature","properties":{"mag":1.9,"time":1557937876872,"place":"21km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.99680000000001,37.2308,0]},"id":"nn00684927"}
 ,
 {"type":"Feature","properties":{"mag":1.1,"time":1557937800733,"place":"100km W of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-152.0217,62.202600000000004,119.3]},"id":"ak01967j97vt"}
 ,
@@ -84,11 +330,15 @@
 ,
 {"type":"Feature","properties":{"mag":1.1600000000000001,"time":1557933276200,"place":"9km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8281631,38.837833399999994,0.8400000000000001]},"id":"nc73182035"}
 ,
+{"type":"Feature","properties":{"mag":4.5,"time":1557932624220,"place":"42km NNW of Namlea, Indonesia"},"geometry":{"type":"Point","coordinates":[126.92869999999999,-2.9151999999999996,10]},"id":"us70003ljx"}
+,
 {"type":"Feature","properties":{"mag":2.4,"time":1557932596362,"place":"31km SW of Homer, Alaska"},"geometry":{"type":"Point","coordinates":[-151.8838,59.4145,42.1]},"id":"ak01967ii14z"}
 ,
 {"type":"Feature","properties":{"mag":2.4099999999999997,"time":1557932167510,"place":"7km SW of Mascot, Tennessee"},"geometry":{"type":"Point","coordinates":[-83.7933333,36.0065,11.47]},"id":"se60271461"}
 ,
-{"type":"Feature","properties":{"mag":2.34,"time":1557932046320,"place":"4km NNW of Hollister, CA"},"geometry":{"type":"Point","coordinates":[-121.41466520000003,36.884334599999995,7.87]},"id":"nc73182025"}
+{"type":"Feature","properties":{"mag":2.3,"time":1557932046250,"place":"4km NNW of Hollister, CA"},"geometry":{"type":"Point","coordinates":[-121.4128333,36.8838333,9.17]},"id":"nc73182025"}
+,
+{"type":"Feature","properties":{"mag":4.6,"time":1557931774903,"place":"228km ENE of Socorro Island, Mexico"},"geometry":{"type":"Point","coordinates":[-108.99980000000001,19.6251,10]},"id":"usd000a19r"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557931335673,"place":"65km W of Anchor Point, Alaska"},"geometry":{"type":"Point","coordinates":[-152.99800000000002,59.830799999999996,98.9]},"id":"ak01967i4yf3"}
 ,
@@ -99,8 +349,6 @@
 {"type":"Feature","properties":{"mag":0.96,"time":1557929756630,"place":"27km ENE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.6655,36.1186667,2.23]},"id":"ci38595032"}
 ,
 {"type":"Feature","properties":{"mag":2.2,"time":1557929699160,"place":"39km NE of Y, Alaska"},"geometry":{"type":"Point","coordinates":[-149.3419,62.4301,34.7]},"id":"ak01967hz1po"}
-,
-{"type":"Feature","properties":{"mag":1,"time":1557929347850,"place":"11km NNE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.1185,37.4642,19.3]},"id":"nn00684914"}
 ,
 {"type":"Feature","properties":{"mag":5.3,"time":1557929340567,"place":"139km NE of Raoul Island, New Zealand"},"geometry":{"type":"Point","coordinates":[-176.7205,-28.5516,35]},"id":"us70003lj3"}
 ,
@@ -114,7 +362,7 @@
 ,
 {"type":"Feature","properties":{"mag":2.22,"time":1557927526880,"place":"7km NNW of Challis, Idaho"},"geometry":{"type":"Point","coordinates":[-114.284,44.5646667,9.41]},"id":"mb80343959"}
 ,
-{"type":"Feature","properties":{"mag":1.47,"time":1557927290660,"place":"8km NNE of Alum Rock, CA"},"geometry":{"type":"Point","coordinates":[-121.77799990000001,37.4313316,6.85]},"id":"nc73181990"}
+{"type":"Feature","properties":{"mag":1.43,"time":1557927290620,"place":"8km NNE of Alum Rock, CA"},"geometry":{"type":"Point","coordinates":[-121.78,37.43,7.45]},"id":"nc73181990"}
 ,
 {"type":"Feature","properties":{"mag":1.8,"time":1557926190667,"place":"73km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2023,66.2585,1]},"id":"ak01967hdzbz"}
 ,
@@ -126,11 +374,13 @@
 ,
 {"type":"Feature","properties":{"mag":2,"time":1557924448714,"place":"21km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.992,37.224900000000005,0]},"id":"nn00684910"}
 ,
-{"type":"Feature","properties":{"mag":1.5,"time":1557924395180,"place":"20km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.98920000000001,37.24550000000001,9.7]},"id":"nn00684909"}
+{"type":"Feature","properties":{"mag":1.6,"time":1557924396722,"place":"11km SSE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.1014,37.272600000000004,0]},"id":"nn00684909"}
+,
+{"type":"Feature","properties":{"mag":1,"time":1557924146867,"place":"16km SSE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.0603,37.238400000000006,0]},"id":"nn00684976"}
 ,
 {"type":"Feature","properties":{"mag":2.67,"time":1557923240030,"place":"104km NNE of Vieques, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-65.5931,19.344800000000003,45]},"id":"pr2019135006"}
 ,
-{"type":"Feature","properties":{"mag":2.13,"time":1557922502060,"place":"27km ENE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.66633329999999,36.11833330000001,-0.18]},"id":"ci38594816"}
+{"type":"Feature","properties":{"mag":2.13,"time":1557922502140,"place":"27km ENE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.6675,36.119666699999996,1.48]},"id":"ci38594816"}
 ,
 {"type":"Feature","properties":{"mag":2.27,"time":1557922305930,"place":"7km NW of Challis, Idaho"},"geometry":{"type":"Point","coordinates":[-114.286,44.5618333,7.56]},"id":"mb80343954"}
 ,
@@ -164,7 +414,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.5,"time":1557917705739,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.20369999999997,66.3026,1.1]},"id":"ak01967ftzjh"}
 ,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557917701313,"place":"59km NNE of Chitina, Alaska"},"geometry":{"type":"Point","coordinates":[-144.09130000000002,62.023,0.1]},"id":"ak01967ftz5m"}
+{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557917701313,"place":"53km NNE of Chitina, Alaska"},"geometry":{"type":"Point","coordinates":[-144.09130000000002,62.023,0.1]},"id":"ak01967ftz5m"}
 ,
 {"type":"Feature","properties":{"mag":4.6,"time":1557917683074,"place":"1km WSW of Gastouni, Greece"},"geometry":{"type":"Point","coordinates":[21.235699999999998,37.8445,10]},"id":"us70003lge"}
 ,
@@ -186,15 +436,17 @@
 ,
 {"type":"Feature","properties":{"mag":1.8,"time":1557912886870,"place":"1km SW of Norwalk, CA"},"geometry":{"type":"Point","coordinates":[-118.0903333,33.9008333,11.38]},"id":"ci38594720"}
 ,
-{"type":"Feature","properties":{"mag":1.1,"time":1557912518860,"place":"14km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.05499999999999,37.2717,0.7000000000000001]},"id":"nn00684899"}
+{"type":"Feature","properties":{"mag":1.2,"time":1557912517830,"place":"26km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.9334,37.22070000000001,0]},"id":"nn00684899"}
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557912151351,"place":"106km WSW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-152.0704,62.0413,105.6]},"id":"ak01967f1j9g"}
+,
+{"type":"Feature","properties":{"mag":1.1,"time":1557912138588,"place":"23km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.9547,37.238400000000006,1.5]},"id":"nn00684897"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557912104024,"place":"65km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.42440000000002,66.3564,0]},"id":"ak01967f1cn7"}
 ,
 {"type":"Feature","properties":{"mag":2.34,"time":1557911284720,"place":"20km S of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.44883730000004,19.020834,37.949999999999996]},"id":"hv70953546"}
 ,
-{"type":"Feature","properties":{"mag":1.3,"time":1557911223940,"place":"8km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.0963,37.3127,12.5]},"id":"nn00684894"}
+{"type":"Feature","properties":{"mag":1.4,"time":1557911223764,"place":"17km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.034,37.24570000000001,5.2]},"id":"nn00684894"}
 ,
 {"type":"Feature","properties":{"mag":1,"time":1557911146814,"place":"70km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2287,66.29460000000002,3.8]},"id":"ak01967exxay"}
 ,
@@ -222,7 +474,7 @@
 ,
 {"type":"Feature","properties":{"mag":2.6,"time":1557908205856,"place":"141km NNW of Unalakleet, Alaska"},"geometry":{"type":"Point","coordinates":[-162.3699,64.93950000000001,0]},"id":"ak01967eeuin"}
 ,
-{"type":"Feature","properties":{"mag":1.81,"time":1557907718850,"place":"24km NNW of Simmler, CA"},"geometry":{"type":"Point","coordinates":[-120.08616640000001,35.5526657,5.84]},"id":"nc73181910"}
+{"type":"Feature","properties":{"mag":1.6800000000000002,"time":1557907718700,"place":"24km NNW of Simmler, CA"},"geometry":{"type":"Point","coordinates":[-120.1018333,35.550333300000005,7.01]},"id":"nc73181910"}
 ,
 {"type":"Feature","properties":{"mag":4.4,"time":1557906932689,"place":"58km NW of Tocopilla, Chile"},"geometry":{"type":"Point","coordinates":[-70.5622,-21.6876,40.27]},"id":"us70003lem"}
 ,
@@ -248,13 +500,19 @@
 ,
 {"type":"Feature","properties":{"mag":1.7300000000000002,"time":1557903779400,"place":"23km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.64799499999998,19.496665999999998,-2.96]},"id":"hv70953451"}
 ,
-{"type":"Feature","properties":{"mag":1.1,"time":1557903654680,"place":"19km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.02069999999999,37.23350000000001,1.4]},"id":"nn00684885"}
+{"type":"Feature","properties":{"mag":1.7700000000000002,"time":1557903670100,"place":"10km NNW of Redwood Valley, CA"},"geometry":{"type":"Point","coordinates":[-123.238,39.3555,-0.46]},"id":"nc73181880"}
+,
+{"type":"Feature","properties":{"mag":1,"time":1557903654812,"place":"17km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.0266,37.2545,4]},"id":"nn00684885"}
+,
+{"type":"Feature","properties":{"mag":1,"time":1557903395545,"place":"20km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.99900000000001,37.234700000000004,0]},"id":"nn00684883"}
 ,
 {"type":"Feature","properties":{"mag":2.8,"time":1557903075983,"place":"16km WNW of Blackwell, Oklahoma"},"geometry":{"type":"Point","coordinates":[-97.44910000000002,36.8664,0.42600000000000005]},"id":"us70003ldp"}
 ,
 {"type":"Feature","properties":{"mag":1.6,"time":1557902930275,"place":"32km NW of Skagway, Alaska"},"geometry":{"type":"Point","coordinates":[-135.65949999999998,59.685900000000004,0.5]},"id":"ak01967deujn"}
 ,
-{"type":"Feature","properties":{"mag":1.4,"time":1557902745220,"place":"35km WSW of Enterprise, Utah"},"geometry":{"type":"Point","coordinates":[-114.09700000000001,37.47,13.1]},"id":"nn00684879"}
+{"type":"Feature","properties":{"mag":1,"time":1557902666492,"place":"21km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.99780000000001,37.22690000000001,0]},"id":"nn00684878"}
+,
+{"type":"Feature","properties":{"mag":1.81,"time":1557902434920,"place":"6km ENE of Harper, Kansas"},"geometry":{"type":"Point","coordinates":[-97.9608333,37.312,6.03]},"id":"ismpkansas70259258"}
 ,
 {"type":"Feature","properties":{"mag":1.1,"time":1557902394384,"place":"26km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-114.94420000000002,37.210100000000004,0]},"id":"nn00684877"}
 ,
@@ -285,8 +543,6 @@
 {"type":"Feature","properties":{"mag":1.52,"time":1557897268990,"place":"7km S of Tallaboa, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.724,17.9241,16]},"id":"pr2019135002"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557897096927,"place":"90km NNW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-151.092,62.9973,102.3]},"id":"ak01967clgau"}
-,
-{"type":"Feature","properties":{"mag":2.1,"time":1557896540491,"place":"40km N of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.09420000000001,37.72350000000001,0]},"id":"nn00684860"}
 ,
 {"type":"Feature","properties":{"mag":1.43,"time":1557896435460,"place":"33km W of Lincoln, Montana"},"geometry":{"type":"Point","coordinates":[-113.1195,47.0005,8.7]},"id":"mb80343904"}
 ,
@@ -354,7 +610,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557884609512,"place":"29km WNW of Willow, Alaska"},"geometry":{"type":"Point","coordinates":[-150.5609,61.84179999999999,13.1]},"id":"ak01967aekc7"}
 ,
-{"type":"Feature","properties":{"mag":1.92,"time":1557884589250,"place":"10km NNW of Redwood Valley, CA"},"geometry":{"type":"Point","coordinates":[-123.23533629999999,39.3561668,1.97]},"id":"nc73181765"}
+{"type":"Feature","properties":{"mag":2.04,"time":1557884589400,"place":"11km NNW of Redwood Valley, CA"},"geometry":{"type":"Point","coordinates":[-123.24183330000001,39.35766669999999,3.54]},"id":"nc73181765"}
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557883890685,"place":"57km ESE of Whittier, Alaska"},"geometry":{"type":"Point","coordinates":[-147.7308,60.5567,15.4]},"id":"ak01967abzu4"}
 ,
@@ -370,7 +626,7 @@
 ,
 {"type":"Feature","properties":{"mag":4.7,"time":1557880968793,"place":"178km WSW of Kavieng, Papua New Guinea"},"geometry":{"type":"Point","coordinates":[149.29359999999997,-3.1393,10]},"id":"us70003lat"}
 ,
-{"type":"Feature","properties":{"mag":1.6300000000000001,"time":1557880773180,"place":"23km E of Tres Pinos, CA"},"geometry":{"type":"Point","coordinates":[-121.06083679999999,36.7598343,5.07]},"id":"nc73181750"}
+{"type":"Feature","properties":{"mag":1.36,"time":1557880772850,"place":"22km E of Tres Pinos, CA"},"geometry":{"type":"Point","coordinates":[-121.07383329999999,36.779,5.75]},"id":"nc73181750"}
 ,
 {"type":"Feature","properties":{"mag":5.5,"time":1557880426015,"place":"213km WSW of Kavieng, Papua New Guinea"},"geometry":{"type":"Point","coordinates":[149.0125,-3.2982,10]},"id":"us70003lam"}
 ,
@@ -416,7 +672,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557875504774,"place":"7km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.994,61.4613,38.7]},"id":"ak01965zrxf0"}
 ,
-{"type":"Feature","properties":{"mag":2,"time":1557874829627,"place":"38km SSE of Sandy Valley, Nevada"},"geometry":{"type":"Point","coordinates":[-115.5325,35.482,0]},"id":"nn00684820"}
+{"type":"Feature","properties":{"mag":2.3899999999999997,"time":1557874829280,"place":"20km SW of Primm, NV"},"geometry":{"type":"Point","coordinates":[-115.53466670000002,35.4701667,-1.26]},"id":"ci38594320"}
 ,
 {"type":"Feature","properties":{"mag":1.25,"time":1557874654360,"place":"1km ESE of Pacific Grove, CA"},"geometry":{"type":"Point","coordinates":[-121.90400000000001,36.6151667,8.94]},"id":"nc73181710"}
 ,
@@ -459,6 +715,8 @@
 {"type":"Feature","properties":{"mag":1.7500000000000002,"time":1557867177100,"place":"4km W of Heber, CA"},"geometry":{"type":"Point","coordinates":[-115.566,32.73683330000001,14.55]},"id":"ci38594072"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557866119132,"place":"4km W of Meadow Lakes, Alaska"},"geometry":{"type":"Point","coordinates":[-149.6878,61.62230000000001,29]},"id":"ak01965y4ptc"}
+,
+{"type":"Feature","properties":{"mag":1.48,"time":1557865427080,"place":"16km NNE of Apple Valley, CA"},"geometry":{"type":"Point","coordinates":[-117.1115,34.632000000000005,-1.12]},"id":"ci38594048"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557865326669,"place":"48km WNW of Gabbs, Nevada"},"geometry":{"type":"Point","coordinates":[-118.4334,39.0407,12.5]},"id":"nn00684799"}
 ,
@@ -577,6 +835,8 @@
 {"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557842473294,"place":"14km SSE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.07469999999999,37.2541,0]},"id":"nn00684746"}
 ,
 {"type":"Feature","properties":{"mag":2.6,"time":1557841428009,"place":"19km SE of Alamo, Nevada"},"geometry":{"type":"Point","coordinates":[-115.00269999999999,37.240500000000004,5]},"id":"nn00684744"}
+,
+{"type":"Feature","properties":{"mag":1.85,"time":1557841321540,"place":"25km NW of San Simeon, CA"},"geometry":{"type":"Point","coordinates":[-121.37299999999999,35.813333300000004,4.1499999999999995]},"id":"nc73181505"}
 ,
 {"type":"Feature","properties":{"mag":5,"time":1557841100664,"place":"47km ENE of Kokopo, Papua New Guinea"},"geometry":{"type":"Point","coordinates":[152.6603,-4.1886,10]},"id":"us70003l05"}
 ,
@@ -728,6 +988,8 @@
 ,
 {"type":"Feature","properties":{"mag":1.8,"time":1557802612434,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.24149999999997,66.3107,3.3]},"id":"ak01965njhj0"}
 ,
+{"type":"Feature","properties":{"mag":1.86,"time":1557802098180,"place":"10km NNW of Redwood Valley, CA"},"geometry":{"type":"Point","coordinates":[-123.2373333,39.354499999999994,2.48]},"id":"nc73181340"}
+,
 {"type":"Feature","properties":{"mag":1.5,"time":1557799621442,"place":"13km NNW of Fishhook, Alaska"},"geometry":{"type":"Point","coordinates":[-149.29649999999998,61.8659,6.7]},"id":"ak01965n8vi8"}
 ,
 {"type":"Feature","properties":{"mag":1.7900000000000003,"time":1557799482070,"place":"5km WSW of Volcano, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.28166199999998,19.405332599999994,-0.02]},"id":"hv70951371"}
@@ -739,6 +1001,8 @@
 {"type":"Feature","properties":{"mag":1.9,"time":1557796854150,"place":"27km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.6009979,19.463832899999996,-1.84]},"id":"hv70951276"}
 ,
 {"type":"Feature","properties":{"mag":2.46,"time":1557796427000,"place":"54km E of Maneadero, B.C., MX"},"geometry":{"type":"Point","coordinates":[-116.0048333,31.626166700000002,6.659999999999999]},"id":"ci38593056"}
+,
+{"type":"Feature","properties":{"mag":1.6900000000000002,"time":1557795708920,"place":"14km WSW of Lakeport, CA"},"geometry":{"type":"Point","coordinates":[-123.0711667,39.004,6.8]},"id":"nc73181320"}
 ,
 {"type":"Feature","properties":{"mag":2.04,"time":1557794377430,"place":"30km SE of Hawaiian Ocean View, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.52883330000003,18.916333299999998,37.08]},"id":"hv70951236"}
 ,
@@ -878,7 +1142,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.1,"time":1557772845395,"place":"3km SSE of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.93220000000002,61.492900000000006,39.6]},"id":"ak019649fmpn"}
 ,
-{"type":"Feature","properties":{"mag":1.57,"time":1557772826870,"place":"7km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8133316,38.821666699999994,2.84]},"id":"nc73181170"}
+{"type":"Feature","properties":{"mag":1.52,"time":1557772826820,"place":"7km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.812,38.820833300000004,3.13]},"id":"nc73181170"}
 ,
 {"type":"Feature","properties":{"mag":1.6900000000000002,"time":1557772622570,"place":"27km ESE of Old Faithful Geyser, Wyoming"},"geometry":{"type":"Point","coordinates":[-110.5453333,44.32533330000001,5.03]},"id":"uu60324702"}
 ,
@@ -904,7 +1168,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.9,"time":1557768070172,"place":"40km WSW of Valdez, Alaska"},"geometry":{"type":"Point","coordinates":[-147.031,60.971599999999995,20]},"id":"ak019648q1s0"}
 ,
-{"type":"Feature","properties":{"mag":2.2,"time":1557767794310,"place":"7km WNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.82283019999998,38.809833499999996,1.9]},"id":"nc73181145"}
+{"type":"Feature","properties":{"mag":2.13,"time":1557767794270,"place":"7km WNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8211667,38.808666699999996,2.23]},"id":"nc73181145"}
 ,
 {"type":"Feature","properties":{"mag":4.9,"time":1557766636587,"place":"12km SSW of Kardamas, Greece"},"geometry":{"type":"Point","coordinates":[21.2673,37.67210000000001,10]},"id":"us70003kgm"}
 ,
@@ -943,6 +1207,8 @@
 {"type":"Feature","properties":{"mag":1.1,"time":1557756713156,"place":"70km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.22240000000002,66.2856,9.9]},"id":"ak019646vp4j"}
 ,
 {"type":"Feature","properties":{"mag":1.97,"time":1557756706170,"place":"30km ESE of Emajagua, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-65.63229999999999,17.86,8]},"id":"pr2019133004"}
+,
+{"type":"Feature","properties":{"mag":0.9500000000000001,"time":1557756551070,"place":"5km W of Cobb, CA"},"geometry":{"type":"Point","coordinates":[-122.78533329999999,38.8218333,2.03]},"id":"nc73181100"}
 ,
 {"type":"Feature","properties":{"mag":1.02,"time":1557756100190,"place":"1km NW of Anderson Springs, CA"},"geometry":{"type":"Point","coordinates":[-122.70149990000002,38.7840004,1]},"id":"nc73181090"}
 ,
@@ -984,13 +1250,11 @@
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557743141954,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2249,66.3086,0.9]},"id":"ak019644kxv7"}
 ,
-{"type":"Feature","properties":{"mag":1.26,"time":1557742767720,"place":"9km WNW of Cobb, CA"},"geometry":{"type":"Point","coordinates":[-122.82250209999998,38.840999599999996,1.8900000000000001]},"id":"nc73181045"}
+{"type":"Feature","properties":{"mag":1.1300000000000001,"time":1557742767680,"place":"9km WNW of Cobb, CA"},"geometry":{"type":"Point","coordinates":[-122.82249999999999,38.84066669999999,2.17]},"id":"nc73181045"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557742741928,"place":"71km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.4386,66.3045,0.4]},"id":"ak019644jkhb"}
 ,
 {"type":"Feature","properties":{"mag":1.9,"time":1557742257377,"place":"33km WSW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-150.683,62.1804,0]},"id":"ak019644hrbk"}
-,
-{"type":"Feature","properties":{"mag":1.56,"time":1557741758830,"place":"10km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.83916470000001,38.8395004,1.29]},"id":"nc73181035"}
 ,
 {"type":"Feature","properties":{"mag":4.6,"time":1557741575693,"place":"35km SE of Namie, Japan"},"geometry":{"type":"Point","coordinates":[141.2504,37.2316,10]},"id":"us70003kbd"}
 ,
@@ -1062,7 +1326,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.12,"time":1557727863100,"place":"17km WSW of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.7786667,37.3718333,12.54]},"id":"nc73180985"}
 ,
-{"type":"Feature","properties":{"mag":1.34,"time":1557727005590,"place":"10km WNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.85600279999998,38.82249830000001,1.3]},"id":"nc73180975"}
+{"type":"Feature","properties":{"mag":1.34,"time":1557727005440,"place":"10km WNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8543333,38.822166700000004,2.7]},"id":"nc73180975"}
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557725962110,"place":"50km SSW of Goldfield, Nevada"},"geometry":{"type":"Point","coordinates":[-117.49340000000001,37.301899999999996,4.1]},"id":"nn00684637"}
 ,
@@ -1134,7 +1398,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.6,"time":1557712260970,"place":"53km WNW of Valdez, Alaska"},"geometry":{"type":"Point","coordinates":[-147.2782,61.3085,16.2]},"id":"ak01963zdiw2"}
 ,
-{"type":"Feature","properties":{"mag":2.52,"time":1557711823620,"place":"14km SE of Petrolia, CA"},"geometry":{"type":"Point","coordinates":[-124.158165,40.2473335,10.59]},"id":"nc73180910"}
+{"type":"Feature","properties":{"mag":2.25,"time":1557711823520,"place":"14km SE of Petrolia, CA"},"geometry":{"type":"Point","coordinates":[-124.16233329999999,40.2426667,11.77]},"id":"nc73180910"}
 ,
 {"type":"Feature","properties":{"mag":2.8499999999999996,"time":1557711083790,"place":"2km NE of Trujillo Alto, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-65.99050000000001,18.371100000000002,128]},"id":"pr2019133000"}
 ,
@@ -1145,8 +1409,6 @@
 {"type":"Feature","properties":{"mag":1.9,"time":1557708899066,"place":"75km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2009,66.2455,0]},"id":"ak01963ysuuu"}
 ,
 {"type":"Feature","properties":{"mag":5.4,"time":1557708213362,"place":"East of Severnaya Zemlya"},"geometry":{"type":"Point","coordinates":[123.8974,79.40780000000001,10]},"id":"us70003k5r"}
-,
-{"type":"Feature","properties":{"mag":2.07,"time":1557707436120,"place":"3km E of Seven Trees, CA"},"geometry":{"type":"Point","coordinates":[-121.8026657,37.2815018,10.98]},"id":"nc73180900"}
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557705882093,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2001,66.318,0]},"id":"ak01963yi3td"}
 ,
@@ -1169,6 +1431,8 @@
 {"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557703083135,"place":"28km SW of Cantwell, Alaska"},"geometry":{"type":"Point","coordinates":[-149.35840000000005,63.2107,84.5]},"id":"ak01962oqn89"}
 ,
 {"type":"Feature","properties":{"mag":2.27,"time":1557702811970,"place":"4km N of Port Townsend, Washington"},"geometry":{"type":"Point","coordinates":[-122.76333333333,48.15566666666699,20.6]},"id":"uw61522567"}
+,
+{"type":"Feature","properties":{"mag":1.03,"time":1557701264970,"place":"6km WNW of San Francisco Zoo, CA"},"geometry":{"type":"Point","coordinates":[-122.5633333,37.756833300000004,14.3]},"id":"nc73180860"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557701188920,"place":"21km ENE of Yerington, Nevada"},"geometry":{"type":"Point","coordinates":[-118.91780000000001,39.025000000000006,1.2]},"id":"nn00684616"}
 ,
@@ -1226,7 +1490,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557682724130,"place":"55km N of Nikiski, Alaska"},"geometry":{"type":"Point","coordinates":[-151.2671,61.1898,120.3]},"id":"ak01962laf39"}
 ,
-{"type":"Feature","properties":{"mag":1.21,"time":1557682663090,"place":"3km SW of Anderson Springs, CA"},"geometry":{"type":"Point","coordinates":[-122.7210007,38.7548332,1.7400000000000002]},"id":"nc73180805"}
+{"type":"Feature","properties":{"mag":1.1400000000000001,"time":1557682663000,"place":"3km SW of Anderson Springs, CA"},"geometry":{"type":"Point","coordinates":[-122.71766670000002,38.75233330000001,1.1900000000000002]},"id":"nc73180805"}
 ,
 {"type":"Feature","properties":{"mag":2.24,"time":1557682322520,"place":"1km E of Luyando, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-67.1398,18.3638,79]},"id":"pr2019132010"}
 ,
@@ -1236,13 +1500,13 @@
 ,
 {"type":"Feature","properties":{"mag":1.7000000000000002,"time":1557681287065,"place":"72km ENE of Cantwell, Alaska"},"geometry":{"type":"Point","coordinates":[-147.529,63.5189,0]},"id":"ak01962l5a3a"}
 ,
-{"type":"Feature","properties":{"mag":2.27,"time":1557681088910,"place":"4km NNW of Avila Beach, CA"},"geometry":{"type":"Point","coordinates":[-120.7503357,35.2171669,5.23]},"id":"nc73180790"}
+{"type":"Feature","properties":{"mag":2.2,"time":1557681088600,"place":"3km NNW of Avila Beach, CA"},"geometry":{"type":"Point","coordinates":[-120.7485,35.2016667,7.2]},"id":"nc73180790"}
 ,
 {"type":"Feature","properties":{"mag":1.5,"time":1557680494611,"place":"60km WNW of Valdez, Alaska"},"geometry":{"type":"Point","coordinates":[-147.42890000000003,61.274,0]},"id":"ak01962l2gut"}
 ,
 {"type":"Feature","properties":{"mag":2.14,"time":1557680062240,"place":"8km NNW of Borrego Springs, CA"},"geometry":{"type":"Point","coordinates":[-116.4213333,33.3211667,7.01]},"id":"ci38591080"}
 ,
-{"type":"Feature","properties":{"mag":1.21,"time":1557679517020,"place":"2km WNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.77999879999999,38.7871666,1.81]},"id":"nc73180775"}
+{"type":"Feature","properties":{"mag":1.32,"time":1557679516920,"place":"2km WNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.77833329999999,38.78433330000001,2.56]},"id":"nc73180775"}
 ,
 {"type":"Feature","properties":{"mag":4.4,"time":1557679457883,"place":"146km SW of Uyuni, Bolivia"},"geometry":{"type":"Point","coordinates":[-67.9127,-21.3007,186.98000000000002]},"id":"us70003k2u"}
 ,
@@ -1278,7 +1542,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557670774550,"place":"97km SW of Arctic Village, Alaska"},"geometry":{"type":"Point","coordinates":[-147.061,67.47460000000001,13.5]},"id":"ak01962je0xc"}
 ,
-{"type":"Feature","properties":{"mag":1.7500000000000002,"time":1557669741840,"place":"10km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8396683,38.8421669,1.93]},"id":"nc73180745"}
+{"type":"Feature","properties":{"mag":1.55,"time":1557669741810,"place":"10km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.83966670000001,38.8425,2.14]},"id":"nc73180745"}
 ,
 {"type":"Feature","properties":{"mag":1.5,"time":1557669129830,"place":"57km NNW of Stovepipe Wells, CA"},"geometry":{"type":"Point","coordinates":[-117.48466670000002,37.03533330000001,5.75]},"id":"ci38590920"}
 ,
@@ -1306,11 +1570,11 @@
 ,
 {"type":"Feature","properties":{"mag":1.6900000000000002,"time":1557665195840,"place":"7km SSE of Ridgely, Tennessee"},"geometry":{"type":"Point","coordinates":[-89.45316670000001,36.2015,9.129999999999999]},"id":"nm60271326"}
 ,
-{"type":"Feature","properties":{"mag":1.32,"time":1557665049760,"place":"2km NE of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.73983,38.791999800000006,1.51]},"id":"nc73180720"}
+{"type":"Feature","properties":{"mag":1.23,"time":1557665049660,"place":"2km NE of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.73566670000001,38.788166700000005,2.06]},"id":"nc73180720"}
 ,
 {"type":"Feature","properties":{"mag":1.6500000000000001,"time":1557664817920,"place":"7km NNW of San Jacinto, CA"},"geometry":{"type":"Point","coordinates":[-116.9928333,33.835833300000004,14.62]},"id":"ci38590864"}
 ,
-{"type":"Feature","properties":{"mag":2.46,"time":1557664553840,"place":"6km W of Cobb, CA"},"geometry":{"type":"Point","coordinates":[-122.7878342,38.821666699999994,1.02]},"id":"nc73180710"}
+{"type":"Feature","properties":{"mag":2.3899999999999997,"time":1557664553810,"place":"5km NNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.78750000000001,38.819333300000004,1.45]},"id":"nc73180710"}
 ,
 {"type":"Feature","properties":{"mag":4.4,"time":1557664514983,"place":"Kepulauan Barat Daya, Indonesia"},"geometry":{"type":"Point","coordinates":[128.49110000000002,-7.439700000000001,160.09]},"id":"us70003k1d"}
 ,
@@ -1340,7 +1604,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.5,"time":1557657459048,"place":"21km WNW of Delta, Colorado"},"geometry":{"type":"Point","coordinates":[-108.2755,38.8407,2.55]},"id":"us70003kd1"}
 ,
-{"type":"Feature","properties":{"mag":2.38,"time":1557657345060,"place":"10km S of Kelseyville, CA"},"geometry":{"type":"Point","coordinates":[-122.85616300000001,38.889167799999996,0.6200000000000001]},"id":"nc73180675"}
+{"type":"Feature","properties":{"mag":2.01,"time":1557657344920,"place":"9km S of Kelseyville, CA"},"geometry":{"type":"Point","coordinates":[-122.8573333,38.898,2.1]},"id":"nc73180675"}
 ,
 {"type":"Feature","properties":{"mag":1.09,"time":1557656876470,"place":"8km NE of Nuevo, CA"},"geometry":{"type":"Point","coordinates":[-117.0908333,33.8538333,15.17]},"id":"ci38590808"}
 ,
@@ -1398,7 +1662,7 @@
 ,
 {"type":"Feature","properties":{"mag":4.5,"time":1557646088776,"place":"15km WNW of Guamal, Colombia"},"geometry":{"type":"Point","coordinates":[-73.8963,3.9283,10]},"id":"us70003jzm"}
 ,
-{"type":"Feature","properties":{"mag":1.49,"time":1557643662710,"place":"10km S of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.73983,38.688835100000006,5.74]},"id":"nc73180615"}
+{"type":"Feature","properties":{"mag":1.21,"time":1557643662710,"place":"10km S of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.7385,38.691833300000006,5.6499999999999995]},"id":"nc73180615"}
 ,
 {"type":"Feature","properties":{"mag":4.1,"time":1557643343668,"place":"21km E of Tocopilla, Chile"},"geometry":{"type":"Point","coordinates":[-69.99740000000001,-22.0551,41.290000000000006]},"id":"us70003jzk"}
 ,
@@ -1417,8 +1681,6 @@
 {"type":"Feature","properties":{"mag":4.7,"time":1557641265377,"place":"46km WSW of Sukumo, Japan"},"geometry":{"type":"Point","coordinates":[132.3158,32.7046,36.339999999999996]},"id":"us70003jzi"}
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557641173098,"place":"15km ESE of La Malbaie, Canada"},"geometry":{"type":"Point","coordinates":[-69.95760000000001,47.6111,11.25]},"id":"us70003k7j"}
-,
-{"type":"Feature","properties":{"mag":1.35,"time":1557641008980,"place":"3km NNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.77500149999999,38.799167600000004,1.6300000000000001]},"id":"nc73180590"}
 ,
 {"type":"Feature","properties":{"mag":2.7600000000000002,"time":1557640862150,"place":"55km N of Hatillo, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.8351,18.9915,8]},"id":"pr2019132007"}
 ,
@@ -1478,7 +1740,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.2,"time":1557633440622,"place":"36km NW of Nikiski, Alaska"},"geometry":{"type":"Point","coordinates":[-151.79379999999998,60.911199999999994,85]},"id":"ak01962d2dev"}
 ,
-{"type":"Feature","properties":{"mag":2.16,"time":1557632892390,"place":"7km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.8113327,38.8236656,1]},"id":"nc73180500"}
+{"type":"Feature","properties":{"mag":1.99,"time":1557632892350,"place":"7km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.80933329999999,38.822166700000004,1.54]},"id":"nc73180500"}
 ,
 {"type":"Feature","properties":{"mag":1.4,"time":1557632870930,"place":"1km S of Bluffdale, Utah"},"geometry":{"type":"Point","coordinates":[-111.94050000000001,40.472500000000004,8.12]},"id":"uu60324582"}
 ,
@@ -1567,6 +1829,8 @@
 {"type":"Feature","properties":{"mag":1.1,"time":1557613073380,"place":"45km S of Gabbs, Nevada"},"geometry":{"type":"Point","coordinates":[-117.843,38.4647,2]},"id":"nn00684551"}
 ,
 {"type":"Feature","properties":{"mag":1.5,"time":1557612893450,"place":"71km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2221,66.27929999999999,0]},"id":"ak019610l44j"}
+,
+{"type":"Feature","properties":{"mag":4.34,"time":1557612675010,"place":"150km WSW of Brookings, OR"},"geometry":{"type":"Point","coordinates":[-126.0585,41.754666699999994,21.47]},"id":"nc73180395"}
 ,
 {"type":"Feature","properties":{"mag":4,"time":1557612672844,"place":"142km W of Brookings, Oregon"},"geometry":{"type":"Point","coordinates":[-125.96190000000001,41.796400000000006,7.74]},"id":"us70003jwm"}
 ,
@@ -1908,7 +2172,7 @@
 ,
 {"type":"Feature","properties":{"mag":1.62,"time":1557532538340,"place":"5km ESE of Boqueron, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-67.1278,18.0028,7]},"id":"pr2019130012"}
 ,
-{"type":"Feature","properties":{"mag":1.49,"time":1557532413900,"place":"4km WNW of Orinda, CA"},"geometry":{"type":"Point","coordinates":[-122.2233333,37.89533330000001,3.88]},"id":"nc73180050"}
+{"type":"Feature","properties":{"mag":1.45,"time":1557532413910,"place":"4km WNW of Orinda, CA"},"geometry":{"type":"Point","coordinates":[-122.22533329999999,37.8956667,3.9]},"id":"nc73180050"}
 ,
 {"type":"Feature","properties":{"mag":4.2,"time":1557532365910,"place":"23km ESE of Cohoe, Alaska"},"geometry":{"type":"Point","coordinates":[-150.9325,60.27570000000001,51.4]},"id":"ak0195zdvbuz"}
 ,
@@ -3820,15 +4084,19 @@
 ,
 {"type":"Feature","properties":{"mag":1.3,"time":1557113963930,"place":"2km NNW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.76400000000001,38.791166700000005,2.79]},"id":"nc73177745"}
 ,
-{"type":"Feature","properties":{"mag":4.9,"time":1557113207858,"place":"Western Indian-Antarctic Ridge"},"geometry":{"type":"Point","coordinates":[121.3615,-49.033,10]},"id":"us70003h7f"}
+{"type":"Feature","properties":{"mag":4.9,"time":1557113207576,"place":"Western Indian-Antarctic Ridge"},"geometry":{"type":"Point","coordinates":[121.31710000000001,-49.0832,10]},"id":"us70003h7f"}
 ,
 {"type":"Feature","properties":{"mag":1.6,"time":1557112185328,"place":"16km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.0723,61.38159999999999,41.5]},"id":"ak0195sfk1xs"}
 ,
 {"type":"Feature","properties":{"mag":1.1800000000000002,"time":1557112166160,"place":"1km W of Cobb, CA"},"geometry":{"type":"Point","coordinates":[-122.7386703,38.8203316,3.54]},"id":"nc73177720"}
 ,
-{"type":"Feature","properties":{"mag":5.5,"time":1557110923890,"place":"20km NNW of Santa Praxedes, Philippines"},"geometry":{"type":"Point","coordinates":[120.90490000000001,18.728699999999996,48.25]},"id":"us70003h71"}
+{"type":"Feature","properties":{"mag":4.2,"time":1557111500100,"place":"124km S of Habibola, Indonesia"},"geometry":{"type":"Point","coordinates":[122.3922,-9.872900000000001,35]},"id":"us70003ll4"}
+,
+{"type":"Feature","properties":{"mag":5.5,"time":1557110922702,"place":"21km NNE of Pagudpud, Philippines"},"geometry":{"type":"Point","coordinates":[120.87639999999999,18.7345,35]},"id":"us70003h71"}
 ,
 {"type":"Feature","properties":{"mag":3.4,"time":1557110865942,"place":"252km SE of Kodiak, Alaska"},"geometry":{"type":"Point","coordinates":[-150.13359999999997,55.8928,10]},"id":"us70003h6z"}
+,
+{"type":"Feature","properties":{"mag":4.4,"time":1557110651900,"place":"218km S of Hachijo-jima, Japan"},"geometry":{"type":"Point","coordinates":[139.99720000000002,31.1227,92.25]},"id":"us70003ll5"}
 ,
 {"type":"Feature","properties":{"mag":2.9,"time":1557108871605,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21549999999996,66.3105,8.2]},"id":"ak0195seznv7"}
 ,
@@ -12402,368 +12670,4 @@
 ,
 {"type":"Feature","properties":{"mag":2.5,"time":1555416689154,"place":"75km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2077,66.24130000000001,0]},"id":"ak0194vi6epx"}
 ,
-{"type":"Feature","properties":{"mag":0.99,"time":1555416240590,"place":"26km ENE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.6711667,36.113666699999996,2.19]},"id":"ci38547928"}
-,
-{"type":"Feature","properties":{"mag":1.08,"time":1555415358190,"place":"16km ESE of Ferron, Utah"},"geometry":{"type":"Point","coordinates":[-110.95,39.05,3.61]},"id":"uu60321317"}
-,
-{"type":"Feature","properties":{"mag":1.11,"time":1555415193910,"place":"16km ESE of Ferron, Utah"},"geometry":{"type":"Point","coordinates":[-110.9493333,39.04833330000001,3.82]},"id":"uu60321312"}
-,
-{"type":"Feature","properties":{"mag":1.9,"time":1555415083157,"place":"39km NE of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-152.25740000000002,60.7502,90.1]},"id":"ak0194vhs2sj"}
-,
-{"type":"Feature","properties":{"mag":1.52,"time":1555414879060,"place":"7km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.81233329999999,38.8195,3.09]},"id":"nc73167340"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555414556692,"place":"81km S of Holy Cross, Alaska"},"geometry":{"type":"Point","coordinates":[-159.567,61.4756,0]},"id":"ak0194vhq6fp"}
-,
-{"type":"Feature","properties":{"mag":2.8,"time":1555413838920,"place":"1km SSW of Ridgely, Tennessee"},"geometry":{"type":"Point","coordinates":[-89.458,36.2148333,9.32]},"id":"nm60266676"}
-,
-{"type":"Feature","properties":{"mag":1.86,"time":1555413570390,"place":"10km ENE of Pahala, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.38633730000006,19.242666199999995,33.309999999999995]},"id":"hv70910851"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555413133445,"place":"6km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.02110000000002,61.4675,36.3]},"id":"ak0194vhl5mg"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555413039003,"place":"43km NE of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-152.25379999999998,60.79220000000001,87.2]},"id":"ak0194vhks40"}
-,
-{"type":"Feature","properties":{"mag":2.51,"time":1555412962250,"place":"3km SSE of Ridgely, Tennessee"},"geometry":{"type":"Point","coordinates":[-89.46016670000002,36.20816670000001,8.11]},"id":"nm60266671"}
-,
-{"type":"Feature","properties":{"mag":2.4,"time":1555412749027,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2162,66.30369999999999,0]},"id":"ak0194vhjqde"}
-,
-{"type":"Feature","properties":{"mag":1.9,"time":1555412435791,"place":"18km WNW of Anchorage, Alaska"},"geometry":{"type":"Point","coordinates":[-150.20329999999998,61.29110000000001,41.2]},"id":"ak0194vhimr8"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555412088231,"place":"17km NE of Badger, Alaska"},"geometry":{"type":"Point","coordinates":[-147.26409999999998,64.91090000000001,6.9]},"id":"ak0194vh8sug"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555411689040,"place":"20km N of Nikiski, Alaska"},"geometry":{"type":"Point","coordinates":[-151.3452,60.8713,67.7]},"id":"ak0194vh7fil"}
-,
-{"type":"Feature","properties":{"mag":4.1,"time":1555411354384,"place":"29km SSW of Toba, Japan"},"geometry":{"type":"Point","coordinates":[136.7852,34.22110000000001,356.90999999999997]},"id":"us7000370n"}
-,
-{"type":"Feature","properties":{"mag":2.3,"time":1555411051205,"place":"65km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.27589999999998,66.3392,2.7]},"id":"ak0194vh54kc"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555411004863,"place":"32km N of North Nenana, Alaska"},"geometry":{"type":"Point","coordinates":[-149.0112,64.871,14.4]},"id":"ak0194vh4xm5"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555410887700,"place":"5km N of Pinnacles, CA"},"geometry":{"type":"Point","coordinates":[-121.13766670000001,36.5771667,8.02]},"id":"nc73167315"}
-,
-{"type":"Feature","properties":{"mag":2.65,"time":1555410867160,"place":"1km WNW of Manhattan, Montana"},"geometry":{"type":"Point","coordinates":[-111.34966670000001,45.8601667,-2.92]},"id":"mb80340729"}
-,
-{"type":"Feature","properties":{"mag":1.98,"time":1555410841010,"place":"21km ENE of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.66416669999998,19.5001667,4.659999999999999]},"id":"hv70910826"}
-,
-{"type":"Feature","properties":{"mag":4.4,"time":1555410545706,"place":"155km NE of Stoney Ground, Anguilla"},"geometry":{"type":"Point","coordinates":[-62.0891,19.298499999999997,10]},"id":"us7000370c"}
-,
-{"type":"Feature","properties":{"mag":2,"time":1555410510063,"place":"55km SSW of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-152.9637,59.99810000000001,115.1]},"id":"ak0194vh36s9"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555410190058,"place":"23km SE of Hawthorne, Nevada"},"geometry":{"type":"Point","coordinates":[-118.4383,38.3686,8.2]},"id":"nn00682412"}
-,
-{"type":"Feature","properties":{"mag":1.36,"time":1555409800340,"place":"2km WNW of Manhattan, Montana"},"geometry":{"type":"Point","coordinates":[-111.36233329999999,45.863666699999996,3.18]},"id":"mb80340724"}
-,
-{"type":"Feature","properties":{"mag":2.4,"time":1555409627536,"place":"74km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21299999999997,66.2509,1.6]},"id":"ak0194vh00du"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555408541936,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.24479999999997,66.3017,0.9]},"id":"ak0194vgnkep"}
-,
-{"type":"Feature","properties":{"mag":5.7,"time":1555407577779,"place":"45km N of L'Esperance Rock, New Zealand"},"geometry":{"type":"Point","coordinates":[-178.818,-31.0266,10]},"id":"us700036yw"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555407430693,"place":"48km ENE of Y, Alaska"},"geometry":{"type":"Point","coordinates":[-149.007,62.3395,95.1]},"id":"ak0194vgjn3x"}
-,
-{"type":"Feature","properties":{"mag":2.5,"time":1555407171728,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21459999999996,66.31400000000001,0]},"id":"ak0194vginok"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555407066387,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21339999999998,66.3094,6.7]},"id":"ak0194vgid06"}
-,
-{"type":"Feature","properties":{"mag":5.8,"time":1555406552921,"place":"33km NNW of L'Esperance Rock, New Zealand"},"geometry":{"type":"Point","coordinates":[-179.08870000000002,-31.1808,10]},"id":"us700036yi"}
-,
-{"type":"Feature","properties":{"mag":4.5,"time":1555406348703,"place":"75km NE of Nago, Japan"},"geometry":{"type":"Point","coordinates":[128.4702,27.108800000000002,74.63]},"id":"us700036ym"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555405778394,"place":"74km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.43810000000002,66.27969999999999,6.4]},"id":"ak0194vgdpvz"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555405379994,"place":"62km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.15140000000002,66.35269999999998,10]},"id":"ak0194vgc8uk"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555404950597,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21749999999997,66.3074,0]},"id":"ak0194vg25gw"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555404795745,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2173,66.3137,0.1]},"id":"ak0194vg1ndo"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555404342657,"place":"74km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.4575,66.2799,0]},"id":"ak0194vfzzm4"}
-,
-{"type":"Feature","properties":{"mag":2.1,"time":1555404202796,"place":"76km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2205,66.2353,0]},"id":"ak0194vfziq8"}
-,
-{"type":"Feature","properties":{"mag":1.6400000000000001,"time":1555404088140,"place":"12km WNW of Calipatria, CA"},"geometry":{"type":"Point","coordinates":[-115.6331667,33.16583330000001,3.62]},"id":"ci38547880"}
-,
-{"type":"Feature","properties":{"mag":3.6,"time":1555404049027,"place":"2km ESE of San Diego, Venezuela"},"geometry":{"type":"Point","coordinates":[-67.93410000000002,10.2538,18.14]},"id":"us700036xr"}
-,
-{"type":"Feature","properties":{"mag":1.7800000000000002,"time":1555403379050,"place":"27km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.6081696,19.420833599999998,-2.4699999999999998]},"id":"hv70910746"}
-,
-{"type":"Feature","properties":{"mag":2.18,"time":1555403170650,"place":"6km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.7993333,38.8135,0.43000000000000005]},"id":"nc73167250"}
-,
-{"type":"Feature","properties":{"mag":2.3,"time":1555402752870,"place":"14km SE of Volcano, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.14266669999998,19.331000000000003,5.79]},"id":"hv70910736"}
-,
-{"type":"Feature","properties":{"mag":3.7,"time":1555402535244,"place":"73km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.3458,66.27529999999999,6.1]},"id":"ak0194vftjmd"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555402489420,"place":"65km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.25140000000002,66.3369,5]},"id":"ak0194vftd1i"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555402471498,"place":"54km W of Currant, Nevada"},"geometry":{"type":"Point","coordinates":[-116.1009,38.69330000000001,4.2]},"id":"nn00682410"}
-,
-{"type":"Feature","properties":{"mag":3.3,"time":1555401707893,"place":"71km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.5293,66.3214,13.9]},"id":"ak0194vfqkhz"}
-,
-{"type":"Feature","properties":{"mag":1.3,"time":1555401214793,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2254,66.3205,0]},"id":"ak0194vfg97r"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555400941399,"place":"9km W of Y, Alaska"},"geometry":{"type":"Point","coordinates":[-150.0357,62.168800000000005,20]},"id":"ak0194vffbrv"}
-,
-{"type":"Feature","properties":{"mag":1.27,"time":1555400688600,"place":"24km ENE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.70316670000001,36.1191667,1.27]},"id":"ci38547872"}
-,
-{"type":"Feature","properties":{"mag":2,"time":1555400544170,"place":"72km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.414,66.29720000000002,0]},"id":"ak0194vfdvj4"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555400501423,"place":"142km NNW of Redoubt Volcano, Alaska"},"geometry":{"type":"Point","coordinates":[-154.08830000000003,61.5863,0]},"id":"ak0194vfdp4d"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555400489369,"place":"64km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2972,66.34920000000001,8.1]},"id":"ak0194vfdo7x"}
-,
-{"type":"Feature","properties":{"mag":1.9,"time":1555400291949,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2183,66.3068,0]},"id":"ak0194vfczr0"}
-,
-{"type":"Feature","properties":{"mag":2.3,"time":1555400028918,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21449999999996,66.30269999999999,0]},"id":"ak0194vfc00p"}
-,
-{"type":"Feature","properties":{"mag":2.2,"time":1555399999965,"place":"66km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.36640000000003,66.3454,9.1]},"id":"ak0194vfbxr0"}
-,
-{"type":"Feature","properties":{"mag":5.7,"time":1555399838831,"place":"Tristan da Cunha region"},"geometry":{"type":"Point","coordinates":[-15.5159,-35.3067,10]},"id":"us700036we"}
-,
-{"type":"Feature","properties":{"mag":2.3,"time":1555399447164,"place":"187km S of Cape Yakataga, Alaska"},"geometry":{"type":"Point","coordinates":[-142.66549999999998,58.3913,0.4]},"id":"ak0194vfa022"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555399319206,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.3631,66.3188,11.7]},"id":"ak0194vf9g6w"}
-,
-{"type":"Feature","properties":{"mag":2.9,"time":1555399019613,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.4386,66.3245,11.3]},"id":"ak0194vf8djd"}
-,
-{"type":"Feature","properties":{"mag":1.99,"time":1555398299870,"place":"4km SW of Palmarejo, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-67.10199999999999,18.0125,14]},"id":"pr2019106005"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555397906332,"place":"16km NW of Fritz Creek, Alaska"},"geometry":{"type":"Point","coordinates":[-151.5011,59.844699999999996,68.2]},"id":"ak0194vevvir"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555397854619,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2163,66.3043,1.1]},"id":"ak0194vevogl"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555397799002,"place":"70km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2279,66.2874,1.1]},"id":"ak0194vevh30"}
-,
-{"type":"Feature","properties":{"mag":1.9,"time":1555397710440,"place":"75km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2023,66.24470000000001,0]},"id":"ak0194vev75y"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555397552967,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2079,66.2963,0]},"id":"ak0194veulqz"}
-,
-{"type":"Feature","properties":{"mag":2.4,"time":1555397297875,"place":"79km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2128,66.21010000000001,0]},"id":"ak0194vetppw"}
-,
-{"type":"Feature","properties":{"mag":2.1,"time":1555397166767,"place":"77km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.20459999999997,66.2207,0]},"id":"ak0194vet9dw"}
-,
-{"type":"Feature","properties":{"mag":1.1,"time":1555397162902,"place":"55km W of Anchorage, Alaska"},"geometry":{"type":"Point","coordinates":[-150.92510000000001,61.190400000000004,64.1]},"id":"ak0194vet94z"}
-,
-{"type":"Feature","properties":{"mag":2.3499999999999996,"time":1555396901850,"place":"69km N of San Juan, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.1463,19.088499999999996,9]},"id":"pr2019106004"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555396755695,"place":"70km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2269,66.2903,0]},"id":"ak0194vers3y"}
-,
-{"type":"Feature","properties":{"mag":2.6,"time":1555396419096,"place":"4km SE of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.8899,61.4895,36.8]},"id":"ak0194veqjl3"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555396400936,"place":"76km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1925,66.23120000000002,1.4]},"id":"ak0194veqi8u"}
-,
-{"type":"Feature","properties":{"mag":1.42,"time":1555396393670,"place":"16km E of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.7706667,36.0341667,1.4]},"id":"ci38547856"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555396261526,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21779999999998,66.3082,7]},"id":"ak0194veq1ad"}
-,
-{"type":"Feature","properties":{"mag":2.5,"time":1555396185802,"place":"184km ESE of Nikolski, Alaska"},"geometry":{"type":"Point","coordinates":[-166.4319,52.19220000000001,11.18]},"id":"us7000375n"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555396009879,"place":"73km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.26379999999997,66.2701,11.4]},"id":"ak0194vep2ee"}
-,
-{"type":"Feature","properties":{"mag":2.9,"time":1555395734968,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.43730000000002,66.33879999999999,12.7]},"id":"ak0194veo4x5"}
-,
-{"type":"Feature","properties":{"mag":2.6,"time":1555395711080,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.24669999999998,66.3036,11.4]},"id":"ak0194venzyc"}
-,
-{"type":"Feature","properties":{"mag":2.8,"time":1555394922870,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.47359999999998,66.345,14.8]},"id":"ak0194vel708"}
-,
-{"type":"Feature","properties":{"mag":2.4,"time":1555394559634,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.43720000000002,66.3205,0.1]},"id":"ak0194vejwjc"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555394475507,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2311,66.3061,0]},"id":"ak0194vejmy6"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555394225260,"place":"66km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.1916,66.3206,1.7000000000000002]},"id":"ak0194vea6ma"}
-,
-{"type":"Feature","properties":{"mag":2.3,"time":1555394045903,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2219,66.30579999999999,0]},"id":"ak0194ve9jgd"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555393853529,"place":"80km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.4393,66.2221,0]},"id":"ak0194ve8sal"}
-,
-{"type":"Feature","properties":{"mag":1.9,"time":1555393751381,"place":"77km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.5225,66.25829999999999,14.9]},"id":"ak0194ve8hc2"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555393674545,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2311,66.3013,0]},"id":"ak0194ve858f"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555393554725,"place":"56km SSE of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-156.5894,66.41150000000002,66.4]},"id":"ak0194ve7pqs"}
-,
-{"type":"Feature","properties":{"mag":0.98,"time":1555393450570,"place":"15km E of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.78416670000001,36.03433330000001,3.53]},"id":"ci38547840"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555393428586,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21589999999998,66.31760000000001,1.1]},"id":"ak0194ve79xm"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555393362335,"place":"70km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2919,66.2921,3]},"id":"ak0194ve71qd"}
-,
-{"type":"Feature","properties":{"mag":2.2,"time":1555393222258,"place":"73km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.21989999999997,66.259,0]},"id":"ak0194ve6kpy"}
-,
-{"type":"Feature","properties":{"mag":1.1800000000000002,"time":1555393200670,"place":"6km ESE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.5385,37.38366669999999,8.18]},"id":"nc73167225"}
-,
-{"type":"Feature","properties":{"mag":2,"time":1555393040982,"place":"26km WNW of Anchorage, Alaska"},"geometry":{"type":"Point","coordinates":[-150.35250000000002,61.3207,37.6]},"id":"ak0194ve5xh2"}
-,
-{"type":"Feature","properties":{"mag":2.9,"time":1555392946742,"place":"74km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.48040000000003,66.2813,12.5]},"id":"ak0194ve5jxe"}
-,
-{"type":"Feature","properties":{"mag":2.1,"time":1555392803957,"place":"69km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.44230000000002,66.3291,0]},"id":"ak0194ve52vu"}
-,
-{"type":"Feature","properties":{"mag":1.81,"time":1555392693500,"place":"30km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.5793304,19.479499799999996,-0.5]},"id":"hv70910566"}
-,
-{"type":"Feature","properties":{"mag":1,"time":1555392341250,"place":"7km WNW of West Bishop, CA"},"geometry":{"type":"Point","coordinates":[-118.5305,37.37533330000001,9.350000000000001]},"id":"nc73167215"}
-,
-{"type":"Feature","properties":{"mag":2.2,"time":1555392273525,"place":"74km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.45010000000002,66.28269999999999,0]},"id":"ak0194ve365k"}
-,
-{"type":"Feature","properties":{"mag":2,"time":1555392246499,"place":"67km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.22240000000002,66.3195,8.7]},"id":"ak0194ve3422"}
-,
-{"type":"Feature","properties":{"mag":1.32,"time":1555392229940,"place":"7km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.53416670000001,37.379333300000006,9.52]},"id":"nc73167210"}
-,
-{"type":"Feature","properties":{"mag":3.1,"time":1555391890380,"place":"68km S of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-156.95040000000003,66.2967,0]},"id":"ak0194ve1tyj"}
-,
-{"type":"Feature","properties":{"mag":4.7,"time":1555391266945,"place":"68km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2352,66.3091,9]},"id":"ak0194vdzjyo"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555390797425,"place":"76km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.50140000000002,66.2639,24.4]},"id":"ak0194vdpakz"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555390757030,"place":"4km SSW of Salinas, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.3125,17.943299999999997,11]},"id":"pr2019106002"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555390263113,"place":"73km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.45220000000003,66.29050000000001,0]},"id":"ak0194vdngh1"}
-,
-{"type":"Feature","properties":{"mag":1.1,"time":1555389528804,"place":"109km ESE of New Allakaket, Alaska"},"geometry":{"type":"Point","coordinates":[-150.4061,66.15299999999999,16.2]},"id":"ak0194vdkrqp"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555389387179,"place":"20km N of Anchor Point, Alaska"},"geometry":{"type":"Point","coordinates":[-151.8896,59.962300000000006,67.7]},"id":"ak0194vdkan1"}
-,
-{"type":"Feature","properties":{"mag":1.3,"time":1555388929938,"place":"48km SW of Homer, Alaska"},"geometry":{"type":"Point","coordinates":[-152.20049999999998,59.364,72.3]},"id":"ak0194vdimp0"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555388668379,"place":"2km E of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.9066,61.520700000000005,36.5]},"id":"ak0194vdhq4y"}
-,
-{"type":"Feature","properties":{"mag":1.7600000000000002,"time":1555388543740,"place":"6km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.54450000000001,37.3831667,7.59]},"id":"nc73167200"}
-,
-{"type":"Feature","properties":{"mag":1.3900000000000001,"time":1555387745480,"place":"20km S of Tracy, CA"},"geometry":{"type":"Point","coordinates":[-121.42866670000001,37.559333300000006,0.23]},"id":"nc73167195"}
-,
-{"type":"Feature","properties":{"mag":4.5,"time":1555387491951,"place":"2km NNW of Santa Catarina Pinula, Guatemala"},"geometry":{"type":"Point","coordinates":[-90.506,14.5851,10]},"id":"us700036ss"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555386426831,"place":"0km NNW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-149.96020000000001,61.52890000000001,31.6]},"id":"ak0194vd16d3"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555386293182,"place":"84km WSW of Cantwell, Alaska"},"geometry":{"type":"Point","coordinates":[-150.5593,63.166700000000006,112.7]},"id":"ak0194vd0mpt"}
-,
-{"type":"Feature","properties":{"mag":1.54,"time":1555386090000,"place":"4km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.79183330000001,38.8065,1.24]},"id":"nc73167185"}
-,
-{"type":"Feature","properties":{"mag":0.99,"time":1555385674850,"place":"6km ESE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.5373333,37.3835,8.42]},"id":"nc73167175"}
-,
-{"type":"Feature","properties":{"mag":1.1900000000000002,"time":1555385588060,"place":"6km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.543,37.379666699999994,8.139999999999999]},"id":"nc73167170"}
-,
-{"type":"Feature","properties":{"mag":2,"time":1555385374238,"place":"4km SSE of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-150.06740000000002,62.2843,0.8]},"id":"ak0194vcxdk3"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555385030022,"place":"45km ENE of Fritz Creek, Alaska"},"geometry":{"type":"Point","coordinates":[-150.5261,59.868300000000005,46.1]},"id":"ak0194vcw4hn"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555385005510,"place":"72km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.4606,66.3033,0]},"id":"ak0194vcw2j8"}
-,
-{"type":"Feature","properties":{"mag":4.7,"time":1555384770546,"place":"100km W of Tarauaca, Brazil"},"geometry":{"type":"Point","coordinates":[-71.67439999999999,-8.0991,583.9499999999999]},"id":"us700036s5"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555384616734,"place":"18km NNW of North Nenana, Alaska"},"geometry":{"type":"Point","coordinates":[-149.21989999999997,64.7358,21.9]},"id":"ak0194vcun00"}
-,
-{"type":"Feature","properties":{"mag":1,"time":1555384579490,"place":"27km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.5986667,19.467333299999996,-1.1]},"id":"hv70910406"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555384238932,"place":"135km W of Cantwell, Alaska"},"geometry":{"type":"Point","coordinates":[-151.6693,63.3851,3.9]},"id":"ak0194vctayd"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555384194590,"place":"10km NW of Tiptonville, Tennessee"},"geometry":{"type":"Point","coordinates":[-89.55883329999999,36.435,10.06]},"id":"nm60266571"}
-,
-{"type":"Feature","properties":{"mag":1.6800000000000002,"time":1555383553460,"place":"16km NW of Pine Mountain Club, CA"},"geometry":{"type":"Point","coordinates":[-119.2731667,34.951166699999995,0.96]},"id":"ci38547792"}
-,
-{"type":"Feature","properties":{"mag":1.3,"time":1555382824985,"place":"33km WSW of Willow, Alaska"},"geometry":{"type":"Point","coordinates":[-150.6587,61.6748,66.6]},"id":"ak0194vcfqlj"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555382180840,"place":"2km SE of Salinas, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-66.2821,17.965299999999996,10]},"id":"pr2019106001"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555382179196,"place":"71km NNE of Tanana, Alaska"},"geometry":{"type":"Point","coordinates":[-151.76369999999997,65.803,0]},"id":"ak0194vcdetk"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555381592842,"place":"78km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.4407,66.24120000000002,0]},"id":"ak0194vcbb7l"}
-,
-{"type":"Feature","properties":{"mag":2.67,"time":1555381283860,"place":"28km NW of Rincon, Puerto Rico"},"geometry":{"type":"Point","coordinates":[-67.4518,18.5063,11]},"id":"pr2019106000"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555379282708,"place":"74km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.441,66.27629999999999,0]},"id":"ak0194vbuil2"}
-,
-{"type":"Feature","properties":{"mag":1.3,"time":1555378435287,"place":"113km N of Ruby, Alaska"},"geometry":{"type":"Point","coordinates":[-155.38190000000003,65.7565,0]},"id":"ak0194vbreu6"}
-,
-{"type":"Feature","properties":{"mag":2.08,"time":1555377794050,"place":"5km NW of The Geysers, CA"},"geometry":{"type":"Point","coordinates":[-122.80199999999999,38.808,1.7400000000000002]},"id":"nc73167135"}
-,
-{"type":"Feature","properties":{"mag":1.3,"time":1555377787261,"place":"9km SSW of Big Lake, Alaska"},"geometry":{"type":"Point","coordinates":[-150.0307,61.4471,41.4]},"id":"ak0194vbp5zc"}
-,
-{"type":"Feature","properties":{"mag":1.31,"time":1555377215410,"place":"6km ESE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.54016670000001,37.3848333,8.44]},"id":"nc73167125"}
-,
-{"type":"Feature","properties":{"mag":2.67,"time":1555376984370,"place":"6km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.539,37.3825,9.219999999999999]},"id":"nc73167120"}
-,
-{"type":"Feature","properties":{"mag":4.3,"time":1555376695612,"place":"22km SSW of Mouzaki, Greece"},"geometry":{"type":"Point","coordinates":[20.6793,37.560100000000006,12.32]},"id":"us700036qt"}
-,
-{"type":"Feature","properties":{"mag":1.9,"time":1555376222515,"place":"93km SE of King Salmon, Alaska"},"geometry":{"type":"Point","coordinates":[-155.38780000000003,58.172900000000006,0]},"id":"ak0194vbb0cp"}
-,
-{"type":"Feature","properties":{"mag":4.6,"time":1555376053922,"place":"107km NW of Vallenar, Chile"},"geometry":{"type":"Point","coordinates":[-71.4598,-27.8289,34.8]},"id":"us700036qr"}
-,
-{"type":"Feature","properties":{"mag":1.21,"time":1555375932540,"place":"6km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.54116670000002,37.384166699999994,8.46]},"id":"nc73167115"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555375675961,"place":"46km ENE of Alamosa East, Colorado"},"geometry":{"type":"Point","coordinates":[-105.3982,37.69530000000001,5.119999999999999]},"id":"us7000396g"}
-,
-{"type":"Feature","properties":{"mag":4.7,"time":1555375668448,"place":"Off the coast of Central America"},"geometry":{"type":"Point","coordinates":[-84.57549999999999,2.0887000000000002,10]},"id":"us700036qn"}
-,
-{"type":"Feature","properties":{"mag":1.37,"time":1555375529770,"place":"9km W of Mount Vernon, Washington"},"geometry":{"type":"Point","coordinates":[-122.46066666667002,48.42766666666699,12.01]},"id":"uw61517586"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555375514959,"place":"30km WSW of Willow, Alaska"},"geometry":{"type":"Point","coordinates":[-150.5231,61.60210000000001,47]},"id":"ak0194vb8gps"}
-,
-{"type":"Feature","properties":{"mag":2.7,"time":1555374427238,"place":"112km SSW of Kaktovik, Alaska"},"geometry":{"type":"Point","coordinates":[-144.6547,69.1914,2.3]},"id":"ak0194vb4l7n"}
-,
-{"type":"Feature","properties":{"mag":1.8,"time":1555374167938,"place":"47km ENE of Alamosa East, Colorado"},"geometry":{"type":"Point","coordinates":[-105.3872,37.7,7.319999999999999]},"id":"us7000396b"}
-,
-{"type":"Feature","properties":{"mag":1.5,"time":1555373548572,"place":"15km NNW of Anchorage, Alaska"},"geometry":{"type":"Point","coordinates":[-150.02800000000002,61.3379,39.2]},"id":"ak0194vb1f53"}
-,
-{"type":"Feature","properties":{"mag":1.7100000000000002,"time":1555373275740,"place":"7km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.53566670000001,37.381499999999996,8.4]},"id":"nc73167100"}
-,
-{"type":"Feature","properties":{"mag":3.3,"time":1555373275422,"place":"85km ESE of Chirikof Island, Alaska"},"geometry":{"type":"Point","coordinates":[-154.35200000000003,55.4022,6.1]},"id":"ak0194vb0e0v"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555372223576,"place":"75km W of Anchor Point, Alaska"},"geometry":{"type":"Point","coordinates":[-153.18040000000002,59.733000000000004,101.2]},"id":"ak0194u1f6ca"}
-,
-{"type":"Feature","properties":{"mag":2.66,"time":1555372156510,"place":"26km WSW of Libby, Montana"},"geometry":{"type":"Point","coordinates":[-115.87799999999999,48.27733330000001,0.02]},"id":"mb80340719"}
-,
-{"type":"Feature","properties":{"mag":5.3,"time":1555371775344,"place":"61km W of Kirakira, Solomon Islands"},"geometry":{"type":"Point","coordinates":[161.3657,-10.4031,35]},"id":"us700036pl"}
-,
-{"type":"Feature","properties":{"mag":1.36,"time":1555371715240,"place":"3km WSW of Pedley, CA"},"geometry":{"type":"Point","coordinates":[-117.5021667,33.9635,8.54]},"id":"ci38547712"}
-,
-{"type":"Feature","properties":{"mag":5,"time":1555371710016,"place":"Western Indian-Antarctic Ridge"},"geometry":{"type":"Point","coordinates":[139.14909999999998,-51.3422,10]},"id":"us70003bea"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555371685246,"place":"74km SSW of Kaktovik, Alaska"},"geometry":{"type":"Point","coordinates":[-144.2254,69.49400000000001,15]},"id":"ak0194u1d942"}
-,
-{"type":"Feature","properties":{"mag":1.7200000000000002,"time":1555371407860,"place":"4km NNW of Boron, CA"},"geometry":{"type":"Point","coordinates":[-117.6745,35.031,-0.8200000000000001]},"id":"ci38547704"}
-,
-{"type":"Feature","properties":{"mag":5,"time":1555370773902,"place":"Western Indian-Antarctic Ridge"},"geometry":{"type":"Point","coordinates":[138.6906,-51.9374,10]},"id":"us70003be9"}
-,
-{"type":"Feature","properties":{"mag":2.5,"time":1555370734587,"place":"39km SW of Talkeetna, Alaska"},"geometry":{"type":"Point","coordinates":[-150.6894,62.092800000000004,3.1]},"id":"ak0194u19ubn"}
-,
-{"type":"Feature","properties":{"mag":1,"time":1555370170978,"place":"22km NNE of Badger, Alaska"},"geometry":{"type":"Point","coordinates":[-147.35340000000002,64.99130000000001,0]},"id":"ak0194u17v2h"}
-,
-{"type":"Feature","properties":{"mag":1.05,"time":1555369928460,"place":"6km ESE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.54150000000001,37.3895,7.45]},"id":"nc73167085"}
-,
-{"type":"Feature","properties":{"mag":1.56,"time":1555369593650,"place":"18km E of Fairview, Utah"},"geometry":{"type":"Point","coordinates":[-111.2298333,39.63433330000001,-1.8900000000000001]},"id":"uu60321282"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555369553353,"place":"72km W of Larsen Bay, Alaska"},"geometry":{"type":"Point","coordinates":[-155.1927,57.5428,68.8]},"id":"ak0194u15lj1"}
-,
-{"type":"Feature","properties":{"mag":1.43,"time":1555368783360,"place":"3km WSW of Pedley, CA"},"geometry":{"type":"Point","coordinates":[-117.50666670000001,33.963,6.74]},"id":"ci38547616"}
-,
-{"type":"Feature","properties":{"mag":1.01,"time":1555368248900,"place":"7km ENE of Black Point-Green Point, CA"},"geometry":{"type":"Point","coordinates":[-122.44083330000001,38.14733330000001,11.82]},"id":"nc73167080"}
-,
-{"type":"Feature","properties":{"mag":2.01,"time":1555368174460,"place":"26km NNW of Ritzville, Washington"},"geometry":{"type":"Point","coordinates":[-118.56133333333,47.33416666666699,-0.52]},"id":"uw61517576"}
-,
-{"type":"Feature","properties":{"mag":1.2,"time":1555368023976,"place":"35km NE of Nikiski, Alaska"},"geometry":{"type":"Point","coordinates":[-150.85820000000004,60.935300000000005,14.8]},"id":"ak0194u0rll7"}
-,
-{"type":"Feature","properties":{"mag":2.1,"time":1555367957590,"place":"6km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.5395,37.38166669999999,9.6]},"id":"nc73167075"}
-,
-{"type":"Feature","properties":{"mag":1.7500000000000002,"time":1555367603200,"place":"33km E of Lee Vining, CA"},"geometry":{"type":"Point","coordinates":[-118.7453333,37.96833330000001,3.3]},"id":"nc73167070"}
-,
-{"type":"Feature","properties":{"mag":1.4,"time":1555367492137,"place":"111km SE of Old Iliamna, Alaska"},"geometry":{"type":"Point","coordinates":[-153.79389999999998,58.9288,1.4]},"id":"ak0194u0pouh"}
-,
-{"type":"Feature","properties":{"mag":4.2,"time":1555367154927,"place":"125km W of Neiafu, Tonga"},"geometry":{"type":"Point","coordinates":[-175.1702,-18.767,220.18]},"id":"us70003be2"}
-,
-{"type":"Feature","properties":{"mag":1.94,"time":1555366809490,"place":"27km E of Honaunau-Napoopoo, Hawaii"},"geometry":{"type":"Point","coordinates":[-155.59950259999997,19.4316673,-1.49]},"id":"hv70909971"}
-,
-{"type":"Feature","properties":{"mag":1.7000000000000002,"time":1555366746070,"place":"71km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.35940000000002,66.292,2.9]},"id":"ak0194u0n27s"}
-,
-{"type":"Feature","properties":{"mag":1.22,"time":1555366494740,"place":"6km ESE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.53716670000001,37.3828333,9.2]},"id":"nc73167065"}
-,
-{"type":"Feature","properties":{"mag":1.52,"time":1555366469290,"place":"12km E of Blackhawk, CA"},"geometry":{"type":"Point","coordinates":[-121.76950000000001,37.81966669999999,12.05]},"id":"nc73167060"}
-,
-{"type":"Feature","properties":{"mag":1.6700000000000002,"time":1555365620050,"place":"10km NNE of Big Bear City, CA"},"geometry":{"type":"Point","coordinates":[-116.81666670000001,34.3525,0.49]},"id":"ci38547576"}
-,
-{"type":"Feature","properties":{"mag":1.8900000000000001,"time":1555365264950,"place":"11km NNE of Big Bear City, CA"},"geometry":{"type":"Point","coordinates":[-116.81533329999999,34.3528333,0.5]},"id":"ci38547552"}
-,
-{"type":"Feature","properties":{"mag":4.2,"time":1555365164587,"place":"49km S of Gefyra, Greece"},"geometry":{"type":"Point","coordinates":[22.9395,36.2474,35.94]},"id":"us70003bdz"}
-,
-{"type":"Feature","properties":{"mag":1.3,"time":1555364773085,"place":"65km SSW of Kobuk, Alaska"},"geometry":{"type":"Point","coordinates":[-157.2252,66.3336,9.3]},"id":"ak0194u07fhx"}
-,
-{"type":"Feature","properties":{"mag":1.25,"time":1555363661020,"place":"6km SE of Round Valley, CA"},"geometry":{"type":"Point","coordinates":[-118.5373333,37.382333300000006,9.3]},"id":"nc73167050"}
-,
-{"type":"Feature","properties":{"mag":1.6,"time":1555363211630,"place":"80km SSW of Shishmaref, Alaska"},"geometry":{"type":"Point","coordinates":[-166.7212,65.5804,7.6]},"id":"ak0194u01weq"}]}
+{"type":"Feature","properties":{"mag":0.99,"time":1555416240590,"place":"26km ENE of Coso Junction, CA"},"geometry":{"type":"Point","coordinates":[-117.6711667,36.113666699999996,2.19]},"id":"ci38547928"}]}

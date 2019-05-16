@@ -8,7 +8,7 @@ tectonic plates around the globe. To achieve this goal different
 virtualization methods are used which are mentioned below. 
 The backend provides an express application which serves root route and provides an API 
 to get uptodate data in GeoJSON format. Total time to load depends on client internet speed & client GPU.
-Uncompressed geojson files are 9 MB.
+Uncompressed geojson files are ~9 MB.
 
 1. Earthquakes got visualized as points with different sizes depending on their magnitude. (Zoom level 7+)
 2. Heatmap for regions with high levels of earthquakes got colored via *Brewer Palette* (Zoom level 0+)
