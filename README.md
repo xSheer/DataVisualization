@@ -12,12 +12,12 @@ Uncompressed geojson files are ~9 MB.
 
 1. Earthquakes got visualized as points with different sizes depending on their magnitude. (Zoom level 7+)
 2. Heatmap for regions with high levels of earthquakes got colored via *Brewer Palette* (Zoom level 0+)
-3. Plate tectonics got visualized and drawn to see correlations between earthquakes poisition and those moving plates
+3. Plate tectonics got visualized and drawn to see correlations between earthquakes position and those moving plates
 4. Position of *ISS* live (refreshed every secound) via rocket-symbol
 
 Trigger layer visibility
 1. Button for urban areas
-2. Button for earthquakes (vielleicht magniatude auswählbar)
+2. Button for earthquakes
 3. Button for plate tectonics
 4. Button toFly ISS
 5. Fullscreen control for a better experience

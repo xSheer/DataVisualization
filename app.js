@@ -17,6 +17,8 @@ let ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 let USGS_EARTHQUAKES = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.geojson";
 let URBAN_AREAS = "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson";
 
+let earthquakeCount = 0;
+
 // let file = fs.createWriteStream('./Source/earthquakes_month.geojson');
 
 var app = express();
@@ -69,6 +71,10 @@ app.get('/getEarthquake', function (req, res) {
     });
 });
 
+app.get('/getEarthquakeCount', function (req, res) {
+    res.json(earthquakeCount);
+});
+
 app.get('/getTectonicPlate', function (req, res) {
     res.json(tectonicPlate);
 });
@@ -84,9 +90,8 @@ let earthquakesData = function(){
             res.status(400).json({error: 'Unable to contact usgs earthquakes API'});
             return;
         }
-
+        earthquakeCount = JSON.parse(body).features.length;
         //writing geojson into file to clean it up afterwards for a better performance 
-        var apiResponse = JSON.parse(body);
         fs.writeFile("./Source/earthquakes_month.geojson", body, (err) => {
             if (err) throw err;
         });

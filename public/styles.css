@@ -274,3 +274,7 @@ hr {
 li{
     text-align: left;
 }
+
+h1 {
+    margin-block-start: 0em;
+}

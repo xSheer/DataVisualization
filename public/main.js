@@ -12,10 +12,20 @@ let findiss = '/findiss';
 let tectonicPlates = '/getTectonicPlate';
 let earthquakes = '/getEarthquake';
 let urbanAreas = '/getUrbanAreas';
+let earthquakeNumber = '/getEarthquakeCount';
+let earthquakeCount = 0;
 
 let earthquakeId = null;
 let state = { panelOpen: true };
 let popup;
+
+async function drawEarthquakeNumbers(){
+    let para = document.createElement("p");
+    let node = document.createTextNode("Number of earthquakes within the last 30 days: " + await $.get(earthquakeNumber)+".");
+    document.getElementById("console").querySelector("p").appendChild(para);
+    para.appendChild(node);
+}
+drawEarthquakeNumbers();
 
 map.on('load', function () {
 
