@@ -4,8 +4,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/dark-v9',
     center: [0, 0],
     //maxBounds: [[-180, -85], [180, 85]],
-    zoom: 1,
-    attributionControl: false
+    zoom: 1
 });
 
 let findiss = '/findiss';
@@ -404,30 +403,9 @@ document.getElementById("popupCloseButton").addEventListener("click", function()
     document.getElementById("helpMsg").style.display = "none";
 });
 
-
-//http://www.naturalearthdata.com/
-
-//https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/ 
-
-//https://docs.mapbox.com/help/tutorials/show-changes-over-time/
-
-//https://d2ad6b4ur7yvpq.cloudfront.net/
-
-//Expression:
-//https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-decision
-
-//tectonic plates
-//https://github.com/fraxen/tectonicplates
-//https://www.gislounge.com/find-tectonic-plate-gis-data/
-
-//https://www.mapbox.com/maps/light-dark/
-
-
 //TODO: switching maps like light or dark (maybe search another way!)
 //TODO: corrent circle size depending on magnitude (magnitude is alright calculated down via log10)
-//TODO: Maybe add animation or magnituderange (via hovering) depending on eartquake magnitude and zoom level to reduce lags
 //TODO: Maybe button to trigger timelaps of 30 days within 30 seconds
-//TODO: implement magnitude size depending to animation and modified onclick to onhover for more earthquake details
 
 // Earthquake’s magnitude is measured in logarithmic scale. Which means an earthquake with magnitude 5 is 10 times stronger than one with magnitude 4. 
 // Also, area of a circle is proportional to the square of its radius. 
