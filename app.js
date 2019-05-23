@@ -23,7 +23,7 @@ let earthquakeCount = 0;
 
 var app = express();
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 80));
 
 app.use(express.static(__dirname + '/public'));
 
