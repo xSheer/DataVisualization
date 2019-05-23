@@ -199,20 +199,8 @@ map.on('load', function () {
                 "interpolate",
                 ["linear"],
                 ["zoom"],
-                7, [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "mag"],
-                    1, 1,
-                    6, 4
-                ],
-                16, [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "mag"],
-                    1, 5,
-                    6, 50
-                ]
+                7, ["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
+                16, ["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
             ],
             "circle-color": "rgba(178,24,43,.7)",
             "circle-opacity": ["case",
@@ -236,8 +224,6 @@ map.on('load', function () {
             "line-width": 2
         }
     });
-
-    map.addControl(new mapboxgl.FullscreenControl());
 
     document.getElementById('locate').addEventListener('click', function (e) {
         var lastSeenLocaton = JSON.parse(this.getAttribute('data-coordinate'));
@@ -402,6 +388,8 @@ document.getElementById("help").addEventListener("click", function(){
 document.getElementById("popupCloseButton").addEventListener("click", function(){
     document.getElementById("helpMsg").style.display = "none";
 });
+
+map.addControl(new mapboxgl.FullscreenControl());
 
 //TODO: switching maps like light or dark (maybe search another way!)
 //TODO: corrent circle size depending on magnitude (magnitude is alright calculated down via log10)
