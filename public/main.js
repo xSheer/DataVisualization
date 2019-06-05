@@ -282,12 +282,9 @@ map.on('load', function () {
             filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'week') {
             selectedTimeRatio = new Date().getTime() - 604800000;
-            console.log(selectedTimeRatio);
             filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'today') {
-            console.log("lul");
             selectedTimeRatio = new Date().getTime() - 86400000;
-            console.log(selectedTimeRatio);
             filterTime =['<=', selectedTimeRatio ,['number',['get', 'time']]];
         }
         setFilters();
