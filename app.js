@@ -23,7 +23,7 @@ let earthquakeCount = 0;
 
 var app = express();
 
-app.set('port', (process.env.PORT || 80));
+app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 
@@ -60,12 +60,11 @@ app.get('/getUrbanAreas', function (req, res) {
 });
 
 app.get('/getEarthquake', function (req, res) {
-    setTimeout(earthquakesData, 3600000);
+    setTimeout(earthquakesData, 600000);
     fs.readFile('./Source/earthquakes_month_cleaned.geojson', function (err, data) {
         if (err) {
           throw err; 
         }
-        flag = true;
         var apiResponse = JSON.parse(data.toString());
         res.json(apiResponse);
     });

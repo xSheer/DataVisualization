@@ -190,26 +190,6 @@ map.on('load', function () {
         }
     }, 'waterway-label');
 
-    map.addLayer({
-        "id": "earthquakes-point-animation",
-        "type": "circle",
-        "source": "earthquake",
-        "paint": {
-            "circle-radius": [
-                "interpolate",
-                ["linear"],
-                ["zoom"],
-                7, ["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
-                16, ["sqrt", ["^", 10, ["number", ["get", "mag"]]]],
-            ],
-            "circle-color": "rgba(178,24,43,.7)",
-            "circle-opacity": ["case",
-                ["boolean", ["feature-state", "hover"], false],
-                1, 0
-            ]
-        }
-    });
-
     map.addSource('tectonicPlates', {type: 'geojson', data: tectonicPlates});
     map.addLayer({
         "id": "tectonic-plates",
@@ -302,37 +282,20 @@ map.on('load', function () {
             filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'week') {
             selectedTimeRatio = new Date().getTime() - 604800000;
+            console.log(selectedTimeRatio);
             filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'today') {
+            console.log("lul");
             selectedTimeRatio = new Date().getTime() - 86400000;
+            console.log(selectedTimeRatio);
             filterTime =['<=', selectedTimeRatio ,['number',['get', 'time']]];
         }
         setFilters();
     });
 
-    map.on("mousemove", "earthquakes-point-animation", function(e) {
-        if (e.features.length > 0 && map.getZoom() >= 7) {
-            if (earthquakeId) {
-                map.setFeatureState({source: 'earthquake', id: earthquakeId}, { hover: false});
-            }
-            earthquakeId = e.features[0].id;
-            map.setFeatureState({source: 'earthquake', id: earthquakeId}, { hover: true});
-        }
-    });
-         
-    // When the mouse leaves the arthquakes-point-animation layer, update the feature state of the
-    // previously hovered feature.
-    map.on("mouseleave", "earthquakes-point-animation", function() {
-        if (earthquakeId) {
-            map.setFeatureState({source: 'earthquake', id: earthquakeId}, { hover: false});
-        }
-        earthquakeId =  null;
-    });
-
     function setFilters(){
         map.setFilter('earthquakes-point', ['all', filterMagnitude, filterTime]);
         map.setFilter('earthquakes-heat', ['all', filterMagnitude, filterTime]);
-        map.setFilter('earthquakes-point-animation', ['all', filterMagnitude, filterTime]);
     }
 
     //default settings of menu will get applied at the start
