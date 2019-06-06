@@ -60,7 +60,6 @@ app.get('/getUrbanAreas', function (req, res) {
 });
 
 app.get('/getEarthquake', function (req, res) {
-    setTimeout(earthquakesData, 600000);
     fs.readFile('./Source/earthquakes_month_cleaned.geojson', function (err, data) {
         if (err) {
           throw err; 
@@ -90,6 +89,7 @@ let earthquakesData = function(){
             return;
         }
         earthquakeCount = JSON.parse(body).features.length;
+        console.log("function called");
         //writing geojson into file to clean it up afterwards for a better performance 
         fs.writeFile("./Source/earthquakes_month.geojson", body, (err) => {
             if (err) throw err;
@@ -97,6 +97,7 @@ let earthquakesData = function(){
     });
 };
 earthquakesData();
+setInterval(earthquakesData, 600000);
 
 //Need to wait until earthquakes_month.geojson got loaded and saved into a file.
 setTimeout(function(){
