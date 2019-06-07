@@ -81,6 +81,15 @@ app.listen(app.get('port'), function () {
     console.log("App listening on port " + app.get('port'));
 });
 
+let convertEarthquakeData = function(){
+    return exec('geojson-pick mag time place < Source/earthquakes_month.geojson > Source/earthquakes_month_cleaned.geojson', (err) => {
+        if (err) {
+            console.log("node couldn't execute the command"+ err);
+            return;
+        }
+    });
+};
+
 let earthquakesData = function(){
     request(USGS_EARTHQUAKES, function (err, resp, body) {
         if (err) {
@@ -89,22 +98,13 @@ let earthquakesData = function(){
             return;
         }
         earthquakeCount = JSON.parse(body).features.length;
-        console.log("function called");
         //writing geojson into file to clean it up afterwards for a better performance 
         fs.writeFile("./Source/earthquakes_month.geojson", body, (err) => {
             if (err) throw err;
         });
     });
+    setTimeout(convertEarthquakeData, 20000);
 };
+
 earthquakesData();
 setInterval(earthquakesData, 600000);
-
-//Need to wait until earthquakes_month.geojson got loaded and saved into a file.
-setTimeout(function(){
-    return exec('geojson-pick mag time place < Source/earthquakes_month.geojson > Source/earthquakes_month_cleaned.geojson', (err) => {
-        if (err) {
-            console.log("node couldn't execute the command"+ err);
-            return;
-        }
-    });
-}, 15000);
