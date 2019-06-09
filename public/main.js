@@ -284,8 +284,6 @@ map.on('load', function () {
             selectedTimeRatio = new Date().getTime() - 604800000;
             filterTime = ['<=', selectedTimeRatio ,['number',['get', 'time']]];
         } else if (time === 'today') {
-            console.log(new Date().getTime());
-            console.log(new Date().getTime() - 86400000);
             selectedTimeRatio = new Date().getTime() - 86400000;
             filterTime =['<=', selectedTimeRatio ,['number',['get', 'time']]];
         }
