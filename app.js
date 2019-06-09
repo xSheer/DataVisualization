@@ -107,4 +107,4 @@ let earthquakesData = function(){
 };
 
 earthquakesData();
-setInterval(earthquakesData, 600000);
+setInterval(earthquakesData, 30000);
