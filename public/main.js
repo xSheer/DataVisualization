@@ -254,9 +254,9 @@ map.on('load', function () {
         }else if(mag === 4){
             filterMagnitude =['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]];
         }else if(mag === 5){
-            filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+0.5]];
+            filterMagnitude = ['all', ['>=', ['number', ['get', 'mag']], mag-0.5], ['<=', ['number', ['get', 'mag']], mag+1]];
         }else if(mag === 6){
-            filterMagnitude = ['>=', ['number', ['get', 'mag']], mag-0.5];
+            filterMagnitude = ['>=', ['number', ['get', 'mag']], mag];
         }
 
         setFilters();
